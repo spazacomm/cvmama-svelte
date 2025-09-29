@@ -11,12 +11,12 @@ export async function POST({ request }) {
 
   // 2️⃣ Forward to Supabase Edge Function using Service Role Key
   const res = await fetch(
-    `${process.env.PUBLIC_SUPABASE_URL}/functions/v1/pesapal-ipn`,
+    `${process.env.VITE_SUPABASE_URL}/functions/v1/pesapal-ipn`,
     {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.PUBLIC_SUPABASE_ANON_KEY}`
+        Authorization: `Bearer ${process.env.VITE_SUPABASE_ANON_KEY}`
       },
       body: JSON.stringify(body)
     }
