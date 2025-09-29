@@ -1,6 +1,25 @@
 <script lang="ts">
 
+
+
+import PaymentModal from "./PaymentModal.svelte";
+
 export let resume;
+
+let modalVisible = false;
+let modalTitle = '';
+
+function openModal(title: string) {
+modalVisible = true;
+modalTitle = title;
+
+}
+
+function closeModal() {
+modalVisible = false;
+modalTitle = '';
+}
+
 
 </script>
 
@@ -10,7 +29,7 @@ export let resume;
       <div class="text-sm text-gray-500">Unlock Your Documents</div>
       <div class="text-lg font-bold text-gray-900">{resume.currency} {resume.amount}</div>
     </div>
-    <button
+    <button on:click={() => openModal('Payment Checkout')}
       class="gradient-warning text-white px-6 py-3 rounded-lg font-bold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2">
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -20,3 +39,11 @@ export let resume;
     </button>
   </div>
     </div>
+
+    <!-- Document Preview Modal -->
+<PaymentModal 
+{resume}
+{modalVisible} 
+{modalTitle} 
+on:closeModal={closeModal} 
+/>
