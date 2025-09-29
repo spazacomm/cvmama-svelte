@@ -1,43 +1,17 @@
 <script>
   import { page } from '$app/stores';
-  import { onMount } from 'svelte';
-  import { supabase } from '$lib/supabaseClient';
+ 
 
   import JobMatchCard from '$lib/components/JobMatchCard.svelte';
   import Documents from '$lib/components/Documents.svelte';
   import PaymentBar from '$lib/components/PaymentBar.svelte';
   import PaymentSidebar from '$lib/components/PaymentSidebar.svelte';
 
-  let resumeId;
-  let resume = null;
-  let job = null;
-  let profile = null;
-
-  $: resumeId = $page.params.id;
-
-  onMount(async () => {
-    if (!resumeId) return;
-
-    // Fetch resume + expand job and profile
-    const { data, error } = await supabase
-      .from('resumes')
-      .select(`
-        *,
-        jobs (*),
-        profiles (*)
-      `)
-      .eq('id', resumeId)
-      .single();
-
-    if (error) {
-      console.error(error);
-      return;
-    }
-
-    resume = data;
-    job = resume.jobs;
-    profile = resume.profiles;
-  });
+  
+   export let data;
+  let resume = data.resume;
+  let job = resume?.jobs;
+  let profile = resume?.profiles;
 </script>
 
     <main class="max-w-6xl mx-auto px-6 py-1">
@@ -56,7 +30,7 @@
         Our AI has analyzed, optimized, and tailored your application materials
         for the
         <strong class="text-[#F28C7A]">
-          {job.title} at {job.company}
+          {job.title} role at {job.company}
         </strong>
         
       </p>
