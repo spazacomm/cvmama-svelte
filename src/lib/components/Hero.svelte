@@ -19,15 +19,15 @@
                 <div class="animate-slide-up">
                     <div class="flex items-center space-x-3 mb-6">
                         <div class="flex -space-x-2">
-                            <div class="w-8 h-8 bg-cvmama-primary rounded-full border-2 border-white flex items-center justify-center">
+                            <div class="w-8 h-8 bg-[#6BB4C9] rounded-full border-2 border-white flex items-center justify-center">
                                 <span class="text-white text-xs font-bold">AI</span>
                             </div>
-                            <div class="w-8 h-8 bg-cvmama-secondary rounded-full border-2 border-white flex items-center justify-center">
+                            <div class="w-8 h-8 bg-[#F28C7A] rounded-full border-2 border-white flex items-center justify-center">
                                 <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                                 </svg>
                             </div>
-                            <div class="w-8 h-8 bg-cvmama-accent rounded-full border-2 border-white flex items-center justify-center">
+                            <div class="w-8 h-8 bg-[#F28C7A] rounded-full border-2 border-white flex items-center justify-center">
                                 <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                 </svg>
