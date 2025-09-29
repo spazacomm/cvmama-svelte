@@ -30,7 +30,7 @@
         Our AI has analyzed, optimized, and tailored your application materials
         for the
         <strong class="text-[#F28C7A]">
-          {job.title} role at {job.company}
+          {job.title} </strong> role at <strong class="text-[#F28C7A]"> {job.company}
         </strong>
         
       </p>
