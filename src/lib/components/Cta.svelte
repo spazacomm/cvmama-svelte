@@ -1,5 +1,10 @@
 <script lang="ts">
 
+      function scrollToUpload() {
+    const el = document.getElementById('upload-section');
+    el?.scrollIntoView({ behavior: 'smooth' });
+  }
+
 </script>
 
  <section class="py-20 bg-[#6BB4C9] relative overflow-hidden">
