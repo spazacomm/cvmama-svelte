@@ -54,7 +54,7 @@
                     <div class="text-center mb-8">
                         <h3 class="text-2xl font-bold text-cvmama-dark mb-2">Per Perfect Match</h3>
                         <div class="flex items-center justify-center">
-                            <span class="text-2xl text-gray-400 line-through mr-2">KES 300</span>
+                            <span class="text-2xl text-gray-400 line-through mr-2">KES 400</span>
                             <div class="text-4xl font-bold text-cvmama-primary">KES 200</div>
                         </div>
                         <p class="text-gray-600">50% launch discount</p>
