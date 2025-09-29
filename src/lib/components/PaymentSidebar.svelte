@@ -1,5 +1,5 @@
 <script lang="ts">
-
+export let resume;
 </script>
 
 <div class="hidden lg:block">
@@ -9,9 +9,9 @@
                         <div class="gradient-primary p-6 text-white text-center">
                             <h3 class="text-xl font-bold mb-2">Unlock Your Documents</h3>
                             <p class="text-blue-100 text-sm mb-4">One-time payment • Instant download</p>
-                            <div class="text-4xl font-bold mb-2">KES 200</div>
-                            <div class="text-blue-100 text-sm line-through">Usually KES 400</div>
-                            <div class="bg-[#10b981] text-white px-3 py-1 rounded-full text-xs font-medium mt-2 inline-block">50% Launch Discount</div>
+                            <div class="text-4xl font-bold mb-2">{resume.currency} {resume.amount}</div>
+                            <!-- <div class="text-blue-100 text-sm line-through">Usually KES 400</div>
+                            <div class="bg-[#10b981] text-white px-3 py-1 rounded-full text-xs font-medium mt-2 inline-block">50% Launch Discount</div> -->
                         </div>
                         <div class="p-6">
                             <ul class="space-y-3 mb-6">

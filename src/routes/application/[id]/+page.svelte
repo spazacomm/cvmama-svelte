@@ -37,21 +37,27 @@
     {/if}
         </div>
 
-        <JobMatchCard />
+        {#if job }
+            <JobMatchCard {job} {resume}/>
+        {:else}
+            <p>Loading application details...</p>
+        {/if}
+
+      
 
         <!-- Documents Grid -->
-       <Documents />
+       <Documents {resume}/>
 
       
     </main>
 
  
     <!-- Payment Sidebar -->
-    <PaymentSidebar />
+    <PaymentSidebar {resume}/>
       
 
     <!-- Sticky Bottom Payment Bar (for mobile & tablet) -->
-    <PaymentBar />
+    <PaymentBar {resume}/>
 
 
 <style>

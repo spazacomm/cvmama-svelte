@@ -1,5 +1,5 @@
 <script lang="ts">
-
+export let resume;
 </script>
 
  <div class="grid lg:grid-cols-2 gap-8 mb-12">
@@ -29,7 +29,7 @@
                                     </div>
                                 </div>
                                 <div class="flex items-center space-x-2">
-                                    <span class="bg-[#10b981] bg-opacity-10 text-[#10b981] px-2 py-1 rounded-full text-xs font-medium">95% ATS Score</span>
+                                    <span class="bg-[#10b981] bg-opacity-10 text-white px-2 py-1 rounded-full text-xs font-medium">{resume.ats_score}% ATS Score</span>
                                     <div class="w-6 h-6 bg-red-500 rounded-full flex items-center justify-center">
                                         <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"/>
@@ -64,7 +64,7 @@
                                     </div>
                                 </div>
                                 <div class="flex items-center space-x-2">
-                                    <span class="bg-[#7c3aed] bg-opacity-10 text-[#7c3aed] px-2 py-1 rounded-full text-xs font-medium">Perfect Match</span>
+                                    <span class="bg-[#7c3aed] bg-opacity-10 text-white px-2 py-1 rounded-full text-xs font-medium">Perfect Match</span>
                                     <div class="w-6 h-6 bg-red-500 rounded-full flex items-center justify-center">
                                         <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"/>
