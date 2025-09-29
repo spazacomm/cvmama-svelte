@@ -4,7 +4,7 @@ export let resume;
 
 </script>
 
-<div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg z-50">
+<div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg z-50 mt-5">
   <div class="flex items-center justify-between p-4">
     <div>
       <div class="text-sm text-gray-500">Unlock Your Documents</div>

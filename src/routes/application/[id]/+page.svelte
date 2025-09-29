@@ -46,7 +46,7 @@
       
 
         <!-- Documents Grid -->
-       <Documents {resume}/>
+       <Documents {resume} {job}/>
 
       
     </main>

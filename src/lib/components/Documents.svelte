@@ -1,5 +1,6 @@
 <script lang="ts">
   export let resume;
+  export let job;
 
   let modalVisible = false;
   let modalTitle = '';
@@ -16,6 +17,36 @@
     modalTitle = '';
     modalContentUrl = null;
   }
+
+  function handleDownload(type: "resume" | "coverLetter") {
+
+        console.log('handling download');
+		// check if unlocked
+		if (resume?.is_paid) {
+			// Construct the download URL (from Supabase Storage, API, etc.)
+			let fileUrl =
+				type === "resume"
+					? resume.cv_pdf_url
+					: resume.cover_letter_pdf_url;
+
+			if (!fileUrl) {
+				console.log("File not available.");
+				return;
+			}
+
+			// Trigger download
+			const link = document.createElement("a");
+			link.href = fileUrl;
+			link.download = `${type}-${job.title || "document"}.pdf`;
+			document.body.appendChild(link);
+			link.click();
+			document.body.removeChild(link);
+		} else {
+			// Not unlocked → show modal or redirect to checkout
+			//openModal(type);
+		}
+	}
+
 </script>
 
 <div class="grid lg:grid-cols-2 gap-8 mb-12">
@@ -43,7 +74,7 @@
                 <p class="text-sm text-gray-500">ATS-optimized • Keyword enhanced</p>
               </div>
             </div>
-            <span class="bg-[#10b981] bg-opacity-10 text-[#10b981] px-2 py-1 rounded-full text-xs font-medium">
+            <span class="bg-[#10b981] bg-opacity-10 text-white px-2 py-1 rounded-full text-xs font-medium">
               {resume.ats_score}% ATS Score
             </span>
           </div>
@@ -64,12 +95,12 @@
           </p>
 
           {#if resume.is_paid}
-            <a href={resume.cv_pdf_url} download class="w-full bg-[#2563eb] text-white py-3 rounded-lg font-medium flex items-center justify-center space-x-2 hover:bg-[#1d4ed8] transition-colors">
+            <button on:click={() => handleDownload("resume")}  class="w-full bg-[#2563eb] text-white py-3 rounded-lg font-medium flex items-center justify-center space-x-2 hover:bg-[#1d4ed8] transition-colors">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v14a1 1 0 01-1 1H4a1 1 0 01-1-1V3zm3 4a1 1 0 000 2h6a1 1 0 100-2H6z" clip-rule="evenodd" />
               </svg>
               <span>Download Resume</span>s
-            </a>
+            </button>
           {:else}
             <button class="w-full bg-gray-300 text-gray-500 py-3 rounded-lg font-medium cursor-not-allowed flex items-center justify-center space-x-2" disabled>
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -82,7 +113,7 @@
       </div>
 
       <!-- Cover Letter Card -->
-      <div class="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 animate-float" style="animation-delay: 0.2s">
+      <div class="bg-white mb-5 rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 animate-float" style="animation-delay: 0.2s">
         <div class="p-6">
           <div class="flex items-center justify-between mb-4">
             <div class="flex items-center space-x-3">
@@ -96,7 +127,7 @@
                 <p class="text-sm text-gray-500">Company-specific • Personalized</p>
               </div>
             </div>
-            <span class="bg-[#7c3aed] bg-opacity-10 text-[#7c3aed] px-2 py-1 rounded-full text-xs font-medium">Perfect Match</span>
+            <span class="bg-[#7c3aed] bg-opacity-10 text-white px-2 py-1 rounded-full text-xs font-medium">Perfect Match</span>
           </div>
 
           <!-- Preview -->
@@ -115,12 +146,12 @@
           </p>
 
           {#if resume.is_paid}
-            <a href={resume.cover_letter_pdf_url} download class="w-full bg-[#2563eb] text-white py-3 rounded-lg font-medium flex items-center justify-center space-x-2 hover:bg-[#1d4ed8] transition-colors">
+            <button on:click={() => handleDownload("coverLetter")} download class="w-full bg-[#2563eb] text-white py-3 rounded-lg font-medium flex items-center justify-center space-x-2 hover:bg-[#1d4ed8] transition-colors">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v14a1 1 0 01-1 1H4a1 1 0 01-1-1V3zm3 4a1 1 0 000 2h6a1 1 0 100-2H6z" clip-rule="evenodd" />
               </svg>
               <span>Download Cover Letter</span>
-            </a>
+            </button>
           {:else}
             <button class="w-full bg-gray-300 text-gray-500 py-3 rounded-lg font-medium cursor-not-allowed flex items-center justify-center space-x-2" disabled>
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
