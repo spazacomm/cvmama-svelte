@@ -892,11 +892,11 @@
       }
   
       .resume-page {
-        padding: 0.3in 0.3in;
+        padding: 0.1in 0.1in;
         box-shadow: none;
       }
   
-      /* .section {
+      .section {
         page-break-inside: avoid;
       }
   
@@ -912,7 +912,7 @@
       .education-entry,
       .project-entry {
         page-break-inside: avoid;
-      } */
+      }
 
       /* Prevent orphaned headers */
       .section-title {
