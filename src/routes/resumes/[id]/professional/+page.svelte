@@ -117,20 +117,7 @@
         </section>
       {/if}
   
-      <!-- Core Competencies / Key Skills (if you want a highlight section) -->
-      {#if skills && skills.length > 0 && skills.some(s => s.level === 'expert' || s.level === 'advanced')}
-        <section class="section core-competencies">
-          <h2 class="section-title">
-            <span class="title-icon"></span>
-            <span>Core Competencies</span>
-          </h2>
-          <div class="competencies-grid">
-            {#each skills.filter(s => s.level === 'expert' || s.level === 'advanced').slice(0, 6) as skill}
-              <div class="competency-badge">{skill.name}</div>
-            {/each}
-          </div>
-        </section>
-      {/if}
+     
 
 
       <!-- Technical Skills -->
