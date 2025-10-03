@@ -1138,6 +1138,7 @@
       /* Optimize for single-page if content fits */
       .resume-page {
         page-break-after: auto;
+        min-height: 11in;
       }
     }
 
