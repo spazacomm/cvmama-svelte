@@ -132,6 +132,78 @@
         </section>
       {/if}
 
+
+      <!-- Technical Skills -->
+      {#if skills && skills.length > 0}
+        <section class="section">
+          <h2 class="section-title">
+            <span class="title-icon"></span>
+            <span>Technical Skills</span>
+          </h2>
+          
+          <div class="skills-grid">
+            {#each skills as skill}
+              <div class="skill-row">
+                <strong class="skill-category">{skill.name}:</strong>
+                {#if skill.keywords && skill.keywords.length > 0}
+                  <span class="skill-items">
+                    {skill.keywords.map(kw => typeof kw === 'string' ? kw : kw.keyword).join(' • ')}
+                  </span>
+                {/if}
+              </div>
+            {/each}
+          </div>
+        </section>
+      {/if}
+        
+          <!-- Education -->
+        {#if education && education.length > 0}
+          <section class="section">
+            <h2 class="section-title">
+              <span class="title-icon"></span>
+              <span>Education</span>
+            </h2>
+            
+            {#each education as edu}
+              <div class="entry education-entry">
+                <div class="entry-header">
+                  <div class="entry-main">
+                    <div class="entry-title-row">
+                      <h3 class="entry-title">
+                        {edu.study_type}{#if edu.area} in {edu.area}{/if}
+                      </h3>
+                      <span class="dates">{formatDate(edu.start_date)} - {formatDate(edu.end_date)}</span>
+                    </div>
+                    <div class="entry-meta">
+                      <span class="company">{edu.institution}</span>
+                      {#if edu.location}
+                        <span class="separator">•</span>
+                        <span class="location">{edu.location}</span>
+                      {/if}
+                      {#if edu.score}
+                        <span class="separator">•</span>
+                        <span class="gpa">GPA: {edu.score}</span>
+                      {/if}
+                    </div>
+                  </div>
+                </div>
+                
+                {#if edu.courses && edu.courses.length > 0}
+                  <p class="coursework">
+                    <strong>Relevant Coursework:</strong> {edu.courses.map(c => c.course).join(', ')}
+                  </p>
+                {/if}
+  
+                {#if edu.honors && edu.honors.length > 0}
+                  <p class="coursework">
+                    <strong>Honors:</strong> {edu.honors.join(', ')}
+                  </p>
+                {/if}
+              </div>
+            {/each}
+          </section>
+        {/if}
+
       <!-- Work Experience -->
       {#if work && work.length > 0}
         <section class="section">
@@ -176,76 +248,7 @@
         </section>
       {/if}
   
-      <!-- Education -->
-      {#if education && education.length > 0}
-        <section class="section">
-          <h2 class="section-title">
-            <span class="title-icon"></span>
-            <span>Education</span>
-          </h2>
-          
-          {#each education as edu}
-            <div class="entry education-entry">
-              <div class="entry-header">
-                <div class="entry-main">
-                  <div class="entry-title-row">
-                    <h3 class="entry-title">
-                      {edu.study_type}{#if edu.area} in {edu.area}{/if}
-                    </h3>
-                    <span class="dates">{formatDate(edu.start_date)} - {formatDate(edu.end_date)}</span>
-                  </div>
-                  <div class="entry-meta">
-                    <span class="company">{edu.institution}</span>
-                    {#if edu.location}
-                      <span class="separator">•</span>
-                      <span class="location">{edu.location}</span>
-                    {/if}
-                    {#if edu.score}
-                      <span class="separator">•</span>
-                      <span class="gpa">GPA: {edu.score}</span>
-                    {/if}
-                  </div>
-                </div>
-              </div>
-              
-              {#if edu.courses && edu.courses.length > 0}
-                <p class="coursework">
-                  <strong>Relevant Coursework:</strong> {edu.courses.map(c => c.course).join(', ')}
-                </p>
-              {/if}
-
-              {#if edu.honors && edu.honors.length > 0}
-                <p class="coursework">
-                  <strong>Honors:</strong> {edu.honors.join(', ')}
-                </p>
-              {/if}
-            </div>
-          {/each}
-        </section>
-      {/if}
   
-      <!-- Technical Skills -->
-      {#if skills && skills.length > 0}
-        <section class="section">
-          <h2 class="section-title">
-            <span class="title-icon"></span>
-            <span>Technical Skills</span>
-          </h2>
-          
-          <div class="skills-grid">
-            {#each skills as skill}
-              <div class="skill-row">
-                <strong class="skill-category">{skill.name}:</strong>
-                {#if skill.keywords && skill.keywords.length > 0}
-                  <span class="skill-items">
-                    {skill.keywords.map(kw => typeof kw === 'string' ? kw : kw.keyword).join(' • ')}
-                  </span>
-                {/if}
-              </div>
-            {/each}
-          </div>
-        </section>
-      {/if}
   
       <!-- Projects -->
       {#if projects && projects.length > 0}
