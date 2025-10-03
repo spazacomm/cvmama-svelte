@@ -482,8 +482,8 @@
     }
   
     .resume-container {
-      max-width: 8.5in;
-      margin: 20px auto;
+      /* max-width: 8.5in; */
+      margin: 0px auto;
       background: #ffffff;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
@@ -877,7 +877,7 @@
     /* ============ PRINT STYLES ============ */
     @media print {
       @page {
-        size: letter;
+        size: A4;
         margin: 0;
       }
 
