@@ -481,7 +481,7 @@
     .resume-page {
       background: #ffffff;
       padding: 0.65in 0.75in;
-      min-height: 11in;
+      /* min-height: 11in; */
     }
   
     /* ============ HEADER ============ */
@@ -1128,7 +1128,7 @@
       /* Optimize for single-page if content fits */
       .resume-page {
         page-break-after: auto;
-        min-height: 11in;
+        /* min-height: 11in; */
       }
     }
 
