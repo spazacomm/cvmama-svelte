@@ -896,7 +896,7 @@
         box-shadow: none;
       }
   
-      .section {
+      /* .section {
         page-break-inside: avoid;
       }
   
@@ -912,7 +912,7 @@
       .education-entry,
       .project-entry {
         page-break-inside: avoid;
-      }
+      } */
 
       /* Prevent orphaned headers */
       .section-title {
