@@ -892,7 +892,7 @@
       }
   
       .resume-page {
-        padding: 0.65in 0.75in;
+        padding: 0.3in 0.3in;
         box-shadow: none;
       }
   
