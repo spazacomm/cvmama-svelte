@@ -113,7 +113,7 @@
             <span class="title-icon"></span>
             <span>Professional Summary</span>
           </h2>
-          <div class="summary-text">{@html formatMarkdown(summary.summary)}</div>
+          <div class="summary-text">{@html formatMarkdown(summary.summary) }</div>
         </section>
       {/if}
   
@@ -589,14 +589,7 @@
       text-align: justify;
     }
 
-    .summary-text :global(p) {
-      margin: 0 0 8pt 0;
-    }
-
-    .summary-text :global(p:last-child) {
-      margin: 0;
-    }
-
+    
     /* ============ CORE COMPETENCIES ============ */
     .core-competencies {
       background: #fafafa;
@@ -1071,10 +1064,7 @@
     }
 
     /* ============ MARKDOWN CONTENT FORMATTING ============ */
-    :global(.entry-description p),
-    :global(.summary-text p) {
-      margin: 0 0 8pt 0;
-    }
+    
 
     :global(.entry-description p:last-child),
     :global(.summary-text p:last-child) {
