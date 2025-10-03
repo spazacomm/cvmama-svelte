@@ -546,7 +546,7 @@
   
     /* ============ SECTIONS ============ */
     .section {
-      margin-bottom: 18pt;
+      margin-bottom: 5pt;
       page-break-inside: avoid;
     }
   
@@ -886,10 +886,10 @@
         box-shadow: none;
       }
   
-      .section {
+      /* .section {
         page-break-inside: avoid;
       }
-  
+   */
       .entry {
         page-break-inside: avoid;
       }
