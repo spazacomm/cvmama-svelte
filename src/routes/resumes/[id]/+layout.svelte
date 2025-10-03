@@ -20,13 +20,12 @@
 		html, body {
 			margin: 0;
 			padding: 0;
-			width: 100%;
-			height: 100%;
+			
 		}
 		
 		@page {
-			size: letter;
-			margin: 0;
+			size: A4;
+			margin: 15mm;
 		}
 		
 		/* Remove any default margins/padding that might interfere */
