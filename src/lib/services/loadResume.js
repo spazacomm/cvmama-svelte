@@ -22,6 +22,7 @@ export async function loadResume(id) {
     { data: profile },
     { data: basics },
     { data: summaries },
+    { data: labels },
     { data: work },
     { data: education },
     { data: skills },
@@ -35,6 +36,7 @@ export async function loadResume(id) {
     supabase.from('profiles').select('*').eq('id', profileId).single(),
     supabase.from('basics').select('*').eq('profile_id', profileId).single(),
     supabase.from('profile_summaries').select('*').eq('profile_id', profileId).eq('version', version).single(),
+    supabase.from('profile_labels').select('*').eq('profile_id', profileId).eq('version', version).single(),
 
     supabase.from('work_experiences').select(`
       *,
@@ -96,6 +98,7 @@ export async function loadResume(id) {
     profile,
     basics,
     summary: summaries,
+    label: labels,
     work: work || [],
     education: education || [],
     skills: skills || [],
