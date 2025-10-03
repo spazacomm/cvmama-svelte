@@ -7,6 +7,7 @@
     import Pricing from "$lib/components/Pricing.svelte";
     import Stories from "$lib/components/Stories.svelte";
     import Upload from "$lib/components/Upload.svelte";
+	import Header from "$lib/components/Header.svelte";
 
 
   let showDetails = false;
@@ -16,6 +17,8 @@
     el?.scrollIntoView({ behavior: 'smooth' });
   }
 </script>
+
+  <Header />
 
     <!-- Hero Section -->
     <Hero />

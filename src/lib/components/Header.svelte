@@ -1,0 +1,41 @@
+<script lang="ts">
+
+</script>
+
+	<!-- Header.svelte -->
+    <header class="glass-effect shadow-sm border-b border-gray-200 sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+          <div class="flex items-center justify-between">
+            <!-- Logo + Brand -->
+            <div class="flex items-center space-x-3">
+              <a href="/" class="flex items-center space-x-2">
+                <!-- Logo image -->
+                <img 
+                  src="/cvmama-logo-color.png" 
+                  alt="CVMama Logo" 
+                  class="h-10 w-40 rounded-xl object-cover"
+                  loading="lazy"
+                />
+               
+              </a>
+             
+            </div>
+      
+            <!-- Navigation -->
+            <nav class="hidden md:flex items-center space-x-8">
+                          <a href="#how-it-works" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">How It Works</a>
+                          <a href="#pricing" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">Pricing</a>
+                          <a href="#success-stories" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">Success Stories</a>
+                           <a href="#faqs" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">FAQs</a>
+                          <button  class="gradient-primary text-white px-6 py-2 rounded-lg font-medium hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+                              Get Started
+                          </button>
+                      </nav>
+                      <button class="md:hidden text-gray-600">
+                          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                          </svg>
+                      </button>
+          </div>
+        </div>
+      </header>
