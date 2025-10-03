@@ -113,7 +113,7 @@
             <span class="title-icon"></span>
             <span>Professional Summary</span>
           </h2>
-          <div class="summary-text">{@html formatMarkdown(summary.summary) }</div>
+          <div class="summary-text">{ @html formatMarkdown(summary.summary) }</div>
         </section>
       {/if}
   
