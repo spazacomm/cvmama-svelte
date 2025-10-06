@@ -23,12 +23,16 @@
       
             <!-- Navigation -->
             <nav class="hidden md:flex items-center space-x-8">
-                          <a href="#how-it-works" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">How It Works</a>
+              <a href="/matching" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">Job Match</a>
+              <a href="/careers" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">Careers</a>
+              <a href="/insights" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">Insights</a>
+
+                          <!-- <a href="#how-it-works" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">How It Works</a>
                           <a href="#pricing" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">Pricing</a>
                           <a href="#success-stories" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">Success Stories</a>
-                           <a href="#faqs" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">FAQs</a>
+                           <a href="#faqs" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium">FAQs</a> -->
                           <button  class="gradient-primary text-white px-6 py-2 rounded-lg font-medium hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
-                              Get Started
+                              Job Match
                           </button>
                       </nav>
                       <button class="md:hidden text-gray-600">
