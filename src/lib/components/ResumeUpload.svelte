@@ -39,8 +39,7 @@
     const result = await uploadResume({
       file,
       candidate_name,
-      email,
-      whatsapp_number
+      email
     });
 
     if (result.success) {
@@ -48,7 +47,6 @@
       file = null;
       candidate_name = "";
       email = "";
-      whatsapp_number = "";
       fileInput.value = "";
     } else {
       errorMsg = result.error;

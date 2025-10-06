@@ -11,6 +11,7 @@
   let error = '';
   let dragActive = false;
   let fileInput;
+  let candidate_name = "";
   let step = 1; // 1 = CV & Job Description, 2 = Email & Consent
 
   function handleDrag(e, entering) {
@@ -137,6 +138,7 @@
             resume_file: publicUrl,
             job_description: jobDescription,
             email: email,
+            lead_name: candidate_name,
             created_at: new Date().toISOString()
           }
         ])
@@ -171,6 +173,7 @@
   function resetForm() {
     cvFile = null;
     jobDescription = '';
+    candidate_name = '';
     email = '';
     termsAccepted = false;
     privacyAccepted = false;
@@ -336,7 +339,7 @@
               class="w-full py-4 rounded-xl font-semibold text-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-offset-2 bg-[#F28C7A] hover:bg-[#e67a66] text-white shadow-lg shadow-[#F28C7A]/20 hover:shadow-xl hover:shadow-[#F28C7A]/30 transform hover:scale-[1.02] focus:ring-[#F28C7A]/30"
             >
               <span class="flex items-center justify-center">
-                Continue to Contact Details
+                Continue 
                 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
                 </svg>
@@ -346,6 +349,30 @@
         {:else}
           <!-- Step 2: Email & Consent -->
           <form on:submit={handleSubmit} class="space-y-8">
+
+            <!-- Name Field -->
+    <div>
+      <label for="candidate_name" class="block text-sm font-medium text-gray-700 mb-2">
+        Full Name *
+      </label>
+      <div class="relative">
+        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+          <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+          </svg>
+        </div>
+        <input
+          id="candidate_name"
+          type="text"
+          bind:value={candidate_name}
+          placeholder="Enter your full name"
+          disabled={uploading}
+          class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cvmama-primary focus:border-cvmama-primary transition-colors duration-200 disabled:bg-gray-100 disabled:cursor-not-allowed"
+        />
+      </div>
+    </div>
+
+
             <!-- Email Address -->
             <div class="mb-5 mt-3">
               <label class="block text-gray-800 font-semibold mb-3 flex items-center">
@@ -374,7 +401,7 @@
                     id="terms"
                     type="checkbox"
                     bind:checked={termsAccepted}
-                    class="w-5 h-5 mx-3 border-2 border-gray-300 rounded focus:ring-2 focus:ring-[#F28C7A] text-[#F28C7A] cursor-pointer"
+                    class="w-5 h-5  border-2 border-gray-300 rounded focus:ring-2 focus:ring-[#F28C7A] text-[#F28C7A] cursor-pointer"
                   />
                 </div>
                 <label for="terms" class="ml-3 text-sm text-gray-700 cursor-pointer px-3">

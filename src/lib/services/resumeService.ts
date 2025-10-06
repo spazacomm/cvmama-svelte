@@ -4,12 +4,10 @@ export async function uploadResume({
   file,
   candidate_name,
   email,
-  whatsapp_number
 }: {
   file: File;
   candidate_name: string;
   email: string;
-  whatsapp_number: string;
 }) {
   try {
     const fileExt = file.name.split('.').pop();
@@ -29,17 +27,22 @@ export async function uploadResume({
       .getPublicUrl(filePath);
 
     // Insert record into DB
-    const { error: insertError } = await supabase.from('profiles').insert({
-      candidate_name,
-      email,
-      whatsapp_number,
-      file_url: publicUrl
-    });
+    const { error: insertError } = await supabase.from('leads').insert(
+    {
+      service: 'optimize',
+      resume_file: publicUrl,
+      job_description: "",
+      email: email,
+      lead_name: candidate_name,
+      created_at: new Date().toISOString()
+    }
+    );
 
     if (insertError) throw insertError;
 
     return { success: true, url: publicUrl };
   } catch (err: any) {
+    console.log(err)
     return { success: false, error: err.message };
   }
 }
