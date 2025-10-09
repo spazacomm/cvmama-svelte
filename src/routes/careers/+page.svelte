@@ -4,6 +4,7 @@
   import { onMount } from 'svelte';
   import { supabase } from '$lib/supabaseClient';
   import { writable } from 'svelte/store';
+  import { goto } from '$app/navigation';
 
 
   // Stores
@@ -72,7 +73,8 @@
 
   function selectJob(job) {
     selectedJob = job;
-    document.body.style.overflow = 'hidden';
+    // document.body.style.overflow = 'hidden';
+    goto(`/careers/${job.id}`)
   }
 
   function closeModal() {
@@ -312,7 +314,7 @@
               <span class="text-gray-400">•</span>
               <span>{job.posted}</span>
             </div>
-            <button class="bg-[#6BB4C9] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#5AA3B8] transition-all group-hover:scale-105">
+            <button class="bg-[#6BB4C9] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#5AA3B8] transition-all group-hover:scale-105" on:click={() => goto(`/careers/${job.id}`)}>
               View Details
             </button>
           </div>
@@ -345,135 +347,6 @@
   {/if}
 </section>
 
-{#if selectedJob}
-  <div 
-    class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4"
-    on:click={closeModal}
-    on:keydown={(e) => e.key === 'Escape' && closeModal()}
-    role="dialog"
-    aria-modal="true"
-  >
-    <div 
-      class="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl"
-      on:click|stopPropagation
-      on:keydown|stopPropagation
-      role="document"
-    >
-      <div class="sticky top-0 bg-white border-b border-gray-200 px-8 py-6 flex items-start justify-between z-10">
-        <div class="flex items-start gap-4 flex-1">
-          <div class="w-16 h-16 bg-gradient-to-br from-[#6BB4C9] to-[#5AA3B8] rounded-xl flex items-center justify-center text-3xl flex-shrink-0 shadow-lg">
-            {selectedJob.logo}
-          </div>
-          <div class="flex-1">
-            <h2 class="text-3xl font-bold text-gray-900 mb-2">{selectedJob.title}</h2>
-            <p class="text-xl text-[#6BB4C9] font-semibold mb-2">{selectedJob.company}</p>
-            <div class="flex flex-wrap items-center gap-3 text-sm">
-              <span class="flex items-center gap-1 text-gray-600">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                {selectedJob.location}
-              </span>
-              <span class="bg-gray-100 px-3 py-1 rounded-full font-medium">{selectedJob.type}</span>
-              <span class="bg-gray-100 px-3 py-1 rounded-full font-medium">{selectedJob.experience}</span>
-              <span class="font-bold text-[#F28C7A]">{selectedJob.salary}</span>
-            </div>
-          </div>
-        </div>
-        <button 
-          on:click={closeModal}
-          class="text-gray-400 hover:text-gray-600 transition-colors ml-4"
-        >
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
-      </div>
 
-      <div class="px-8 py-6">
-        <div class="flex items-center gap-6 mb-8 pb-6 border-b border-gray-200">
-          <div class="text-center">
-            <div class="text-2xl font-bold text-gray-900">{selectedJob.applicants}</div>
-            <div class="text-sm text-gray-500">Applicants</div>
-          </div>
-          <div class="text-center">
-            <div class="text-2xl font-bold text-gray-900">{selectedJob.views}</div>
-            <div class="text-sm text-gray-500">Views</div>
-          </div>
-          <div class="text-center">
-            <div class="text-2xl font-bold text-gray-900">{selectedJob.posted}</div>
-            <div class="text-sm text-gray-500">Posted</div>
-          </div>
-        </div>
-
-        <div class="space-y-8">
-          <div>
-            <h3 class="text-xl font-bold text-gray-900 mb-3">Job Description</h3>
-            <p class="text-gray-700 leading-relaxed">{selectedJob.description}</p>
-          </div>
-
-          <div>
-            <h3 class="text-xl font-bold text-gray-900 mb-3">Requirements</h3>
-            <ul class="space-y-2">
-              {#each selectedJob.requirements as requirement}
-                <li class="flex items-start gap-2 text-gray-700">
-                  <svg class="w-5 h-5 text-[#6BB4C9] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                  </svg>
-                  {requirement}
-                </li>
-              {/each}
-            </ul>
-          </div>
-
-          <div>
-            <h3 class="text-xl font-bold text-gray-900 mb-3">Responsibilities</h3>
-            <ul class="space-y-2">
-              {#each selectedJob.responsibilities as responsibility}
-                <li class="flex items-start gap-2 text-gray-700">
-                  <svg class="w-5 h-5 text-[#F28C7A] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                  </svg>
-                  {responsibility}
-                </li>
-              {/each}
-            </ul>
-          </div>
-
-          <div>
-            <h3 class="text-xl font-bold text-gray-900 mb-3">Benefits</h3>
-            <ul class="space-y-2">
-              {#each selectedJob.benefits as benefit}
-                <li class="flex items-start gap-2 text-gray-700">
-                  <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                  </svg>
-                  {benefit}
-                </li>
-              {/each}
-            </ul>
-          </div>
-        </div>
-
-        <div class="mt-8 pt-6 border-t border-gray-200 flex gap-4">
-          <button class="flex-1 bg-gradient-to-r from-[#6BB4C9] to-[#5AA3B8] text-white px-8 py-4 rounded-xl font-bold hover:shadow-lg transition-all hover:scale-105">
-            Apply Now
-          </button>
-          <button class="bg-gray-100 text-gray-700 px-6 py-4 rounded-xl font-bold hover:bg-gray-200 transition-all">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-            </svg>
-          </button>
-          <button class="bg-gray-100 text-gray-700 px-6 py-4 rounded-xl font-bold hover:bg-gray-200 transition-all">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-{/if}
 
 <Footer />
