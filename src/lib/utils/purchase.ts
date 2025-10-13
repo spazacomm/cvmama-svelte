@@ -58,10 +58,11 @@ async function initiatePesapalPayment(
     amount: itemData.amount,
     description: 'Job match and application documents',
     phone_number: customerData.phone,
-    callback_url: 'https://cvmama.co.ke/application/${itemData.id}',
+    callback_url: `https://cvmama.co.ke/application/${itemData.id}`,
     currency: currency,
     country_code: customerData.country_code
   };
+  
 
   const { data, error } = await supabase.functions.invoke("pesapal-init-payment", {
     body: paymentData
