@@ -54,7 +54,7 @@
                         <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2h2zm-1 2h10v6H5V8zm5-6a1 1 0 00-1 1v1h2V3a1 1 0 00-1-1z" clip-rule="evenodd"/>
                         </svg>
-                        <span>{job.job_type}</span>
+                        <span>{job.type}</span>
                     </div>
                     <div class="flex items-center space-x-2  rounded-lg p-2 sm:bg-transparent sm:p-0">
                         <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -67,7 +67,7 @@
                         <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
                         </svg>
-                        <span>{job.date_posted}</span>
+                        <span>{job.posted}</span>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                         Role Overview
                     </h4>
                     <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
-                        {job.description.about}
+                        {job.description}
                     </p>
                 </div>
                 
@@ -111,7 +111,7 @@
                         <h5 class="font-medium text-gray-900 mb-3 text-sm sm:text-base">Key Responsibilities</h5>
                         
                          <ul class="space-y-2 text-gray-600 text-sm sm:text-base">
-                             {#each job.description.responsibilities as item}
+                             {#each job.responsibilities as item}
                             <li class="flex items-start">
                                 <svg class="w-4 h-4 mr-2 mt-1 text-[#10b981] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
@@ -127,7 +127,7 @@
                         <h5 class="font-medium text-gray-900 mb-3 text-sm sm:text-base">Key Requirements</h5>
                         
                          <ul class="space-y-2 text-gray-600 text-sm sm:text-base">
-                             {#each job.description.requirements as item}
+                             {#each job.requirements as item}
                             <li class="flex items-start">
                                 <svg class="w-4 h-4 mr-2 mt-1 text-[#10b981] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
@@ -140,9 +140,9 @@
                     </div>
                     
                      <div>
-                        <h5 class="font-medium text-gray-900 mb-3 text-sm sm:text-base">Nice to Have</h5>
+                        <h5 class="font-medium text-gray-900 mb-3 text-sm sm:text-base">Benefits</h5>
                         <ul class="space-y-2 text-gray-600 text-sm sm:text-base">
-                             {#each job.description.nice_to_have as item}
+                             {#each job.benefits as item}
                             <li class="flex items-start">
                                 <svg class="w-4 h-4 mr-2 mt-1 text-gray-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>

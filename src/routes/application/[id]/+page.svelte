@@ -22,12 +22,12 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
             </div>
-            <h1 class="text-4xl md:text-5xl font-bold text-[#1e293b] mb-4">
+            <h1 class="text-3xl md:text-3xl font-bold text-[#1e293b] mb-4">
                 <strong>{profile.candidate_name}</strong>, Your Documents Are Ready!
             </h1>
             {#if job && profile}
       <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-        Our AI has analyzed, optimized, and tailored your application materials
+        We have analyzed, optimized, and tailored your application materials
         for the
         <strong class="text-[#F28C7A]">
           {job.title} </strong> role at <strong class="text-[#F28C7A]"> {job.company}
