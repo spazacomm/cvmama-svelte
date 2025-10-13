@@ -37,6 +37,7 @@
 			// Trigger download
 			const link = document.createElement("a");
 			link.href = fileUrl;
+      link.target = '_blank';
 			link.download = `${type}-${job.title || "document"}.pdf`;
 			document.body.appendChild(link);
 			link.click();

@@ -51,13 +51,14 @@
       
     </main>
 
- 
+    {#if !resume.is_paid}
     <!-- Payment Sidebar -->
     <PaymentSidebar {resume}/>
       
 
     <!-- Sticky Bottom Payment Bar (for mobile & tablet) -->
     <PaymentBar {resume}/>
+    {/if}
 
 
 <style>
