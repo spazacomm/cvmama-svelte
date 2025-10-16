@@ -14,7 +14,7 @@
                 Your Dream Job is Waiting
             </h2>
             <p class="text-xl lg:text-2xl text-blue-100 mb-12 max-w-3xl mx-auto leading-relaxed">
-                Join thousands of professionals who transformed their careers with CVMama AI. Upload your resume and let our intelligent system do the work.
+                Join thousands of professionals who transformed their careers with cvmama. Upload your resume and let our intelligent system do the work.
             </p>
 
             <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">

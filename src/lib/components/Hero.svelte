@@ -37,14 +37,14 @@
                     </div>
 
                     <h1 class="text-5xl lg:text-7xl font-bold text-[#1e293b] mb-6 leading-tight">
-                        Land Your 
-                        <span class="text-gradient">Dream Job</span> 
-                        with AI
+                        Job Hunt,
+                        <span class="text-gradient">Simplified.</span> 
+                       
                     </h1>
                     
                     <p class="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
-                        Upload your resume. Our AI finds perfect matches, optimizes your documents, and gets you 
-                        <strong class="text-cvmama-primary">interview-ready in minutes</strong>.
+                        Upload your resume. We find perfect matches, optimize your documents, and get you 
+                        interview ready.
                     </p>
 
                    

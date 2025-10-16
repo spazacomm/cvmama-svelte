@@ -6,7 +6,7 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-4xl lg:text-5xl font-bold text-cvmama-dark mb-6">
-                    How <span class="text-gradient">CVMama AI</span> Works
+                    How <span class="text-gradient">cvmama</span> works
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                     Our advanced AI agents work around the clock to find your perfect job matches and create documents that get results.
