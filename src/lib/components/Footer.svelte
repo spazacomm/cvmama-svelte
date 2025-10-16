@@ -39,7 +39,7 @@
                         <li><a href="#" class="hover:text-white transition-colors">Resume Builder</a></li>
                         <li><a href="#" class="hover:text-white transition-colors">Cover Letters</a></li>
                         <li><a href="#" class="hover:text-white transition-colors">ATS Checker</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors">Job Matching</a></li>
+                        <li><a href="/matching" class="hover:text-white transition-colors">Job Matching</a></li>
                     </ul>
                 </div>
                 <div>
@@ -47,8 +47,8 @@
                     <ul class="space-y-2 text-gray-400">
                         <li><a href="." class="hover:text-white transition-colors">Help Center</a></li>
                         <li><a href="." class="hover:text-white transition-colors">Contact Us</a></li>
-                        <li><a href="." class="hover:text-white transition-colors">Privacy Policy</a></li>
-                        <li><a href="." class="hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="/privacy" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="/terms" class="hover:text-white transition-colors">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
