@@ -110,7 +110,7 @@
 
   <!-- FAQ Section -->
   <section id="faq">
-    <Faq />
+    <!-- <Faq /> -->
   </section>
 
   <!-- CTA Section -->
