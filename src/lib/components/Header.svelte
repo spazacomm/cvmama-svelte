@@ -47,8 +47,11 @@
 
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center space-x-6 lg:space-x-8">
+        <a href="/ats" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium text-sm lg:text-base">
+          ATS Checker
+        </a>
         <a href="/matching" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium text-sm lg:text-base">
-          Job Match
+          CV Matcher
         </a>
         <a href="/careers" class="text-gray-600 hover:text-cvmama-primary transition-colors font-medium text-sm lg:text-base">
           Careers
@@ -117,6 +120,13 @@
 
       <!-- Menu Items -->
       <nav class="flex flex-col p-4 space-y-1">
+        <a 
+        href="/ats" 
+        on:click={handleNavClick}
+        class="text-gray-700 hover:text-cvmama-primary hover:bg-gray-50 px-4 py-3 rounded-lg font-medium transition-all touch-manipulation active:scale-95"
+      >
+        ATS Checker
+      </a>
         <a 
           href="/matching" 
           on:click={handleNavClick}

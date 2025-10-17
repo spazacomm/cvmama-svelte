@@ -151,13 +151,13 @@ import { onMount } from 'svelte';
       <div class="absolute top-20 left-10 w-72 h-72 bg-blue-400/20 rounded-full blur-3xl animate-pulse"></div>
       <div class="absolute bottom-20 right-10 w-96 h-96 bg-purple-400/20 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
       
-      <div class="max-w-6xl mx-auto relative z-10 text-center mt-5 mb-5 ">
+      <div class="max-w-6xl mx-auto relative z-10 text-center  ">
         <!-- <div class="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-6 animate-bounce">
           <span class="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
           AI-Powered Career Intelligence
         </div> -->
         
-        <h1 class="text-5xl md:text-7xl font-bold text-white mt-3 py-3 pt-5 mb-6 leading-tight">
+        <h1 class="text-3xl md:text-7xl font-bold text-white mt-3  mb-6 leading-tight">
           Turn career data into your<br/>
           <span class="text-white">
             competitive edge

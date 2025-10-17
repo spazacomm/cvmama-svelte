@@ -38,8 +38,8 @@
                     <ul class="space-y-2 text-gray-400">
                         <li><a href="/" class="hover:text-white transition-colors">Resume Builder</a></li>
                         <li><a href="/" class="hover:text-white transition-colors">Cover Letters</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors">ATS Checker</a></li>
-                        <li><a href="/matching" class="hover:text-white transition-colors">Job Matching</a></li>
+                        <li><a href="/ats" class="hover:text-white transition-colors">ATS Checker</a></li>
+                        <li><a href="/matching" class="hover:text-white transition-colors">CV Matcher</a></li>
                     </ul>
                 </div>
                 <div>
