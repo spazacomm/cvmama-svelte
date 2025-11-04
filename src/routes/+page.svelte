@@ -57,7 +57,7 @@
       "@type": "Organization",
       "name": "CV Mama",
       "url": "https://cvmama.co.ke",
-      "logo": "https://cvmama.co.ke/logo.png",
+      "logo": "https://cvmama.co.ke/cvmama-logo-color.png",
       "sameAs": [
         "https://twitter.com/cvmama",
         "https://linkedin.com/company/cvmama"
