@@ -3,6 +3,23 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import Header from '$lib/components/Header.svelte';
 
+	import { browser } from '$app/environment';
+
+	if (browser) {
+		// Dynamically load GA only in the browser
+		(function(){
+		const script1 = document.createElement('script');
+		script1.async = true;
+		script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-V23BCPS7YQ';
+		document.head.appendChild(script1);
+
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){ dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-V23BCPS7YQ');
+		})();
+	}
+
 	let { children } = $props();
 </script>
 
