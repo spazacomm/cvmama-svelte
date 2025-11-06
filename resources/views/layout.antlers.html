@@ -1,15 +1,358 @@
-<!doctype html>
-<html lang="{{ site:short_locale }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title ?? site:name }}</title>
-        {{ vite src="resources/js/site.js|resources/css/site.css" }}
-    </head>
-    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
-        <div class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center">
-            {{ template_content }}
-        </div>
-    </body>
+<!DOCTYPE html>
+<html lang="{{ site:short_locale }}" class="">
+
+<head>
+    <script defer="" referrerpolicy="origin" src="js/s.js"></script>
+    <script async="" src="js/H9R1GshL.js?v=28"></script>
+    <script nonce="">
+        const new_cookie_names = {
+            ms_click_tracker: 'bh_mc_id',
+        };
+
+        function get_cookie(cookie_name) {
+            let name = cookie_name + "=";
+            let cookie_array = document.cookie.split(';');
+            for (let i = 0; i < cookie_array.length; i++) {
+                let c = cookie_array[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (new_cookie_names[cookie_name] && c.indexOf(new_cookie_names[cookie_name] + '=') === 0) {
+                    return c.substring(new_cookie_names[cookie_name].length + 1, c.length);
+                } else if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return null;
+        }
+
+        function set_cookie(cookie_name, cookie_value, expire_seconds, additional_param_info = '') {
+            let d = new Date();
+            d.setTime(d.getTime() + (expire_seconds * 1000));
+            let expires = "";
+            if (expire_seconds != false) {
+                expires = "expires=" + d.toUTCString();
+            }
+            if (new_cookie_names[cookie_name]) {
+                cookie_name = new_cookie_names[cookie_name];
+            }
+            if (additional_param_info.length && additional_param_info.charAt(0) !== ';') {
+                additional_param_info = ';' + additional_param_info;
+            }
+            document.cookie = cookie_name + "=" + cookie_value + ";" + expires + ";path=/" + additional_param_info;
+        }
+    </script>
+    <script nonce="" id="page-info">
+        var page_info = { "locale": "en-KE", "force_enable_language": false, "localizejs_language": "en", "geo_country": "ke", "week_starts_monday": false, "sites_fqdn": ["www.mytherapist.com", "www.teencounseling.com", "www.betterhelp.com", "www.betterhelporg.com", "www.regain.us"], "redirect_sites_fqdn": ["www.betterhelp.com", "www.regain.us", "www.teencounseling.com"], "show_cookie_banner": true, "ms_cookie_consent_settings": { "is_in_GB_EU": false, "ms_cookie_consent_required": true }, "is_paypal_disabled": false, "redesigned_home": "betterhelp_two", "account_recovery": false, "total_sessions": 451352508, "total_therapists": 32231, "total_members": 6028592, "show_ukraine_support_modal": false, "app_version": "c085e475694065b5499", "uniqid": "690c8309ab5c94.52767300", "user_type": "logged_out_user", "user_id": "559f7fdb0bfc4a99ee911d8941a0033931d84e830feb21263a0eea212c33017a9e0e898e83da61bce25961d69cb0cad6db7ef9d72d00d9e077f087fa3d90b972", "template": "main", "is_mobile": false, "is_app": false, "is_ios_app": false, "is_android_app": false, "user_app_version": null, "is_development_local": false, "is_development_cloud": false, "is_staging": false, "is_non_production_cloud": false, "is_qa_server": false, "features": { "specify_podcast": true, "sunsetting": false, "urgent_messages": true, "couples": false, "phone_calls": true, "secret_assign_straights": true, "livechat": true, "about": true, "counselor_application": true, "counselor_application_lean": false, "worksheets": true, "smart_match_with_categories": true, "groupinars": true, "group_sessions": true, "login_quotes": true, "videosessions": true, "app_supports_videosessions": true, "cloud_chat": true, "consent_agreement": true, "gmail_quick_action": true, "scheduling": true, "support_link": true, "no_trial": true, "strike_through_cake": true, "dollar_test_charge": true, "groupon": true, "mobgo": true, "mental": true, "funnel_smart_match": true, "funnel_overview": true, "offer_promo_codes": true, "email_verification_always": true, "reviews_page": true, "jobs_page": true, "security_logos_display": true, "social_links_display": true, "counselor-directory": true, "language_is_matching_hard_filter": false, "advice": true, "presskit": true, "press_page": true, "text_notifications": true, "goals": true, "goals_mobile_main_menu": false, "batch_creation": true, "ask_language": true, "parent_child_account": false, "hardcoded_testimonials": false, "friendly_funnel": true, "referral_program": true, "vouchers": true, "betterhelp_branded": true, "signup_captcha": true, "signup_repeat_password": false, "phone_on_mobile_signup": true, "cookie_consent_required": true, "journal": true, "maintenance_plan": true, "show_business_link": true, "show_impressum": true, "counselors_page": true }, "date_time_formats": { "full": "F j, Y g:ia T", "full_short_mo_no_tz": "M j, Y g:ia", "date": "F j, Y", "date_short_mo": "M j, Y", "date_short_mo_int": "j M, Y", "time": "g:ia", "time_with_tz": "g:ia T", "bh_date": "D, M j, Y \\a\\t g:ia T", "bh_date_int": "D, j M, Y \\a\\t g:ia T", "bh_date_full_day": "l, M j, Y \\a\\t g:ia T", "bh_date_int_full_day": "l, j M, Y \\a\\t g:ia T", "numeric_date_int": "d.m.Y" }, "subdomain": "www", "environment_name": null, "cdn_host_assets": "assets.betterhelp.com", "cdn_host": "static.betterhelp.com", "assets_app_version": "ab3ccb07d4f4", "contrib_app_version": 28, "env_image_tag": "20251106RC9c265b5499", "product_code_name": "betterhelp", "product_name": "BetterHelp", "bh_address": "3155 Olsen Dr., Suite #375, San Jose, CA 95117", "unix_timestamp": 1762427657, "track_userid": "", "coralogix_api_url": "https:\/\/api.coralogix.us\/api\/v1\/logs", "coralogix_api_key": "cxtp_xLio15bMClZkt4QAxKEEOIKfFpDvku", "coralogix_frontend_key": "cxtp_xLio15bMClZkt4QAxKEEOIKfFpDvku", "coralogix_rumfrontend_key": "cxtp_ZN7InjlIyKqiTTDilrju0OSDLiv1UY", "use_sentry": 0, "msfrontend_logger_ignore_regex_useragent": "Googlebot\/2.1|RavenCrawler|Bytespider", "msfrontend_logger_ignore_regex_eventmessage": "Script error\\.|ResizeObserver loop|Failed to write image to cache|Non-Error exception captured|Non-Error promise rejection captured|OpenTok:|Extension context invalidated|telephone", "default_language_id": 1, "csrf_token": "01ec211846a1ccfa1f7232404caea1bd6c9e6e73e4545b8b787a8c0c7aa4c587a84164e57d29946749cb9afabb8880ee5869b2a8b4bb1deef62cad74ef67569c", "presignup_experiments": { "NEW_HOMEPAGE_VALUE_PROPS": "CONTROL", "NEW_GET_STARTED_COPY_V1": "CONTROL" }, "counselor_presignup_experiments": [], "eligible_for_iterable_push_notifications": false, "is_eligible_for_analytics": false, "showCancelMembership": false, "base64_encode_entries": false, "base64_encode_journals": false, "base64_encode_notes": false }
+    </script>
+
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>BetterHelp | Professional Therapy With A Licensed Therapist</title>
+    <meta name="description"
+        content="Get matched easily with a licensed, board-accredited therapist. More than 32000 therapists with 451 million+ counseling sessions are ready to help you!">
+    <meta name="keywords" content="mental health">
+    <meta name="title" content="BetterHelp | Professional Therapy With A Licensed Therapist">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BetterHelp | Professional Therapy With A Licensed Therapist">
+    <meta property="og:url" content="http://www.betterhelp.com">
+    <meta property="og:description"
+        content="BetterHelp offers affordable, convenient online therapy when you need it from licensed, professional therapists. Get help, you deserve to be happy!">
+    <meta property="og:image" content="https://assets.betterhelp.com/brand/betterhelp/betterhelp-fb.png?v=ab3ccb07d4f4">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@betterhelp">
+    <meta name="twitter:title" content="BetterHelp | Professional Therapy With A Licensed Therapist">
+    <meta name="twitter:description"
+        content="BetterHelp offers affordable, convenient online therapy when you need it from licensed, professional therapists. Get help, you deserve to be happy!">
+    <meta name="twitter:image"
+        content="https://assets.betterhelp.com/brand/betterhelp/betterhelp-fb.png?v=ab3ccb07d4f4">
+    <style data-tippy-stylesheet="">
+        .tippy-box[data-animation=fade][data-state=hidden] {
+            opacity: 0
+        }
+
+        [data-tippy-root] {
+            max-width: calc(100vw - 10px)
+        }
+
+        .tippy-box {
+            position: relative;
+            background-color: #333;
+            color: #fff;
+            border-radius: 4px;
+            font-size: 14px;
+            line-height: 1.4;
+            white-space: normal;
+            outline: 0;
+            transition-property: transform, visibility, opacity
+        }
+
+        .tippy-box[data-placement^=top]>.tippy-arrow {
+            bottom: 0
+        }
+
+        .tippy-box[data-placement^=top]>.tippy-arrow:before {
+            bottom: -7px;
+            left: 0;
+            border-width: 8px 8px 0;
+            border-top-color: initial;
+            transform-origin: center top
+        }
+
+        .tippy-box[data-placement^=bottom]>.tippy-arrow {
+            top: 0
+        }
+
+        .tippy-box[data-placement^=bottom]>.tippy-arrow:before {
+            top: -7px;
+            left: 0;
+            border-width: 0 8px 8px;
+            border-bottom-color: initial;
+            transform-origin: center bottom
+        }
+
+        .tippy-box[data-placement^=left]>.tippy-arrow {
+            right: 0
+        }
+
+        .tippy-box[data-placement^=left]>.tippy-arrow:before {
+            border-width: 8px 0 8px 8px;
+            border-left-color: initial;
+            right: -7px;
+            transform-origin: center left
+        }
+
+        .tippy-box[data-placement^=right]>.tippy-arrow {
+            left: 0
+        }
+
+        .tippy-box[data-placement^=right]>.tippy-arrow:before {
+            left: -7px;
+            border-width: 8px 8px 8px 0;
+            border-right-color: initial;
+            transform-origin: center right
+        }
+
+        .tippy-box[data-inertia][data-state=visible] {
+            transition-timing-function: cubic-bezier(.54, 1.5, .38, 1.11)
+        }
+
+        .tippy-arrow {
+            width: 16px;
+            height: 16px;
+            color: #333
+        }
+
+        .tippy-arrow:before {
+            content: "";
+            position: absolute;
+            border-color: transparent;
+            border-style: solid
+        }
+
+        .tippy-content {
+            position: relative;
+            padding: 5px 9px;
+            z-index: 1
+        }
+    </style>
+    <link rel="shortcut icon" href="//assets.betterhelp.com/brand/betterhelp/favicon-2024.ico" type="image/x-icon">
+    <link rel="icon" href="//assets.betterhelp.com/brand/betterhelp/favicon-2024.ico" type="image/x-icon">
+    <!-- Apple Touch Icons for mobile safari -->
+    <link rel="apple-touch-icon" href="//assets.betterhelp.com/brand/betterhelp/apple-touch-icon.png?v=ab3ccb07d4f4">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120"
+        href="//assets.betterhelp.com/brand/betterhelp/apple-touch-icon-120x120-precomposed.png?v=ab3ccb07d4f4}}">
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="//assets.betterhelp.com/brand/betterhelp/apple-touch-icon-120x120.png?v=ab3ccb07d4f4}}">
+    <!-- End Apple Touch Icons for mobile safari -->
+
+
+    <link rel="stylesheet"
+        href="css/jquery.mobile.min.css?v=c085e475694065b5499"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet"
+        href="css/all.min.css?v=c085e475694065b5499" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet"
+        href="css/polyfills.css?v=c085e475694065b5499" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet"
+        href="css/font-awesome-animation.min.css?v=c085e475694065b5499">
+
+
+
+    <link rel="stylesheet" href="css/select2.min.css?v=c085e475694065b5499"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="stylesheet" href="css/bh_style.css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet"
+        href="//static.betterhelp.com/dist/css/contrib/google/css/overpass/index.min.css?v=c085e475694065b5499"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+
+    <link rel="stylesheet" href="css/slick_new.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+    <template id="journal-title-text-placeholder-template">
+        <span>
+            Title
+        </span>
+    </template>
+    <template id="journal-body-text-placeholder-template">
+        <span>
+            Begin your entry here
+        </span>
+    </template>
+    <template id="recommended-worksheets-toggle-label-show-template">
+        <span>
+            Show
+        </span>
+    </template>
+    <template id="recommended-worksheets-toggle-label-hide-template">
+        <span>
+            Hide
+        </span>
+    </template>
+    <template id="timepicker-holiday-label-template">
+        <span>
+            HOLIDAY
+        </span>
+    </template>
+
+    <!-- Sweeps Tracking -->
+    <script
+        nonce=""> zarazData = { "dataLayerIgnore": ["OptanonLoaded", "OneTrustLoaded"], "z_product_code_name": "betterhelp", "z_cookieConsent": 0 }; </script>
+    <script nonce="" src="js/i.js"></script>
+    <script>(function (w, d) { { (function (w, d) { })(window, document) } })(window, document)</script>
+    <!-- End Sweeps Tracking -->
+
+    <script nonce="" type="text/javascript" async="">
+        try {
+            ; (function (p, l, o, w, i, n, g) {
+                if (!p[i]) {
+                    p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || [];
+                    p.GlobalSnowplowNamespace.push(i);
+                    p[i] = function () {
+                        (p[i].q = p[i].q || []).push(arguments)
+                    };
+                    p[i].q = p[i].q || [];
+                    n = l.createElement(o);
+                    g = l.getElementsByTagName(o)[0];
+                    n.async = 1;
+                    n.src = w;
+                    g.parentNode.insertBefore(n, g)
+                }
+            }(window, document, "script", "//static.betterhelp.com/js/contrib/sp/H9R1GshL.js?v=28", "snowplow"));
+
+            snowplow('newTracker', 'multisite', 'https://events.betterhelp.com', {
+                appId: '2',
+                discoverRootDomain: true,
+                cookieSameSite: 'Lax', // Recommended
+                contexts: {
+                    webPage: true // default, can be omitted
+                }
+            });
+            var user_type = page_info.user_type;
+            if (user_type == 'logged_out_user') {
+                // in the PHP code, we send 'logged_out' to Snowplow
+                user_type = 'logged_out';
+            }
+            snowplow('addGlobalContexts', [{
+                schema: "iglu:com.betterhelp/user/jsonschema/1-0-3",
+                data: {
+                    user_type: user_type,
+                    language: document.documentElement.lang,
+                }
+            }]);
+            if (page_info.user_id && Number.isInteger(page_info.user_id) && page_info.user_id > 0) {
+                snowplow('setUserId', page_info.user_id)
+            }
+            snowplow('enableActivityTracking', {
+                minimumVisitLength: 30,
+                heartbeatDelay: 10
+            });
+            snowplow('trackPageView');
+            var snowplow_global = null;
+            snowplow(function () {
+                snowplow_global = this.multisite;
+            });
+        }
+        catch (e) {
+            console.log(e);
+        }
+    </script>
+
+
+    <link rel="canonical" href="https://www.betterhelp.com/">
+    <link rel="stylesheet" href="css/odometer-theme-default.min.css">
+    <script nonce="" type="application/ld+json">
+ { "@context": "http://schema.org",
+ "@type": "Organization",
+ "name": "BetterHelp",
+ "url": "https://www.betterhelp.com",
+ "logo": "/images/logo.png?v=ab3ccb07d4f4",
+ "foundingDate": "2013",
+ "founders": [
+ {
+ "@type": "Person",
+ "name": "Alon Matas"
+ },
+ {
+ "@type": "Person",
+ "name": "Danny Bragonier"
+ } ],
+"potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.betterhelp.com/advice_search/?search={search_term}",
+    "query-input": "required name=search_term" },
+ "address": {
+ "@type": "PostalAddress",
+ "streetAddress": "3155 Olsen Dr.",
+ "addressLocality": "San Jose",
+ "addressRegion": "CA",
+ "postalCode": "95117",
+ "addressCountry": "USA"
+ },
+ "contactPoint": {
+ "@type": "ContactPoint",
+ "contactType": "customer support",
+ "email": "contact@betterhelp.com",
+ "url": "https://www.betterhelp.com/contact/"
+ },
+ "sameAs": [
+ "https://www.facebook.com/BetterHelp/",
+ "https://twitter.com/betterhelp",
+ "https://www.instagram.com/betterhelp/?hl=en",
+ "https://www.linkedin.com/company/betterhelp-com",
+ "https://www.pinterest.com/betterhelp/",
+ "https://plus.google.com/117263820920114720157",
+ "https://en.wikipedia.org/wiki/BetterHelp",
+ "https://www.youtube.com/c/BetterHelp" ]}
+</script>
+
+    <script>(function (w, d) { ; w.zarazData.executed.push("Pageview");; w.zarazData.executed.push("836060a8-f41d-405c-b46e-fde261c71cfe");; w.zarazData.executed.push("NjwT");; w.zarazData.executed.push("b9e7cda6-9cbc-4865-94dd-e169befaa64b");; w.zarazData.executed.push("cVpV");; w.zarazData.executed.push("ifsc");; w.zarazData.executed.push("oiiO");; w.zarazData.executed.push("Betterhelp");; w.zarazData.executed.push("a0215340-1984-476a-be7b-34ef2973feef");; w.zarazData.executed.push("ea7b7665-40ad-4e96-8567-27df3874eb91");; w.zarazData.executed.push("NoPerformance");; w.zarazData.executed.push("NoTracking"); })(window, document)</script>
+    <script>(function (w, d) { { (function (w, d) { })(window, document) } })(window, document)</script>
+</head>
+
+
+
+
+<body id="main" class="tw-theme-betterhelp_two tw-user-logged_out_user" cdn="static.betterhelp.com" data-localize=""
+    data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
+    
+
+
+
+{{template_content}}
+
+
+
+
+</body>
+
 </html>
