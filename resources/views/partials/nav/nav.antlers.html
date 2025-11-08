@@ -1,0 +1,96 @@
+<nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
+    <div class="container flex-lg-row flex-nowrap align-items-center">
+        <div class="navbar-brand w-100">
+            <a href="./index.html">
+                <img src="/sandbox/img/logo.png" srcset="/sandbox/img/logo@2x.png 2x" alt="" class="w-50"/>
+            </a>
+        </div>
+        <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+                <h3 class="text-white fs-30 mb-0">cvmama</h3>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                <ul class="navbar-nav">
+
+                    {{ nav:main_nav }}
+    <li class="nav-item">
+        <a class="nav-link {{ is_current || is_parent ?= 'active' }}" href="{{ url }}">
+            {{ title }}
+        </a>
+    </li>
+{{ /nav:main_nav }}
+
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link " href="#" >Platform</a> 
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#" >Resources</a> 
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#" >Insights</a> 
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#" >Career Agents</a> 
+                    </li> -->
+
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link " href="#" >For Organizations</a> 
+                    </li> -->
+
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link " href="#" >FAQ</a>  
+                    </li> -->
+
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link " href="#" >About Us</a>
+                    </li> -->
+                    
+                    
+                </ul>
+                <!-- /.navbar-nav -->
+                <div class="offcanvas-footer d-lg-none">
+                    <div>
+                        <a href="/cdn-cgi/l/email-protection#53353a2120277d3f32202713363e323a3f7d303c3e"
+                            class="link-inverse"><span class="__cf_email__"
+                                data-cfemail="066f68606946636b676f6a2865696b">[email&#160;protected]</span></a>
+                        <br /> 00 (123) 456 78 90 <br />
+                        <nav class="nav social social-white mt-4">
+                            <a href="#"><i class="uil uil-twitter"></i></a>
+                            <a href="#"><i class="uil uil-facebook-f"></i></a>
+                            <a href="#"><i class="uil uil-dribbble"></i></a>
+                            <a href="#"><i class="uil uil-instagram"></i></a>
+                            <a href="#"><i class="uil uil-youtube"></i></a>
+                        </nav>
+                        <!-- /.social -->
+                    </div>
+                </div>
+                <!-- /.offcanvas-footer -->
+            </div>
+            <!-- /.offcanvas-body -->
+        </div>
+        <!-- /.navbar-collapse -->
+        <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-signin">Sign
+                        In</a>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                    <a href="#" class="btn btn-sm btn-primary rounded" data-bs-toggle="modal"
+                        data-bs-target="#modal-signup">Sign Up</a>
+                </li>
+                <li class="nav-item d-lg-none">
+                    <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                </li>
+            </ul>
+            <!-- /.navbar-nav -->
+        </div>
+        <!-- /.navbar-other -->
+    </div>
+    <!-- /.container -->
+</nav>

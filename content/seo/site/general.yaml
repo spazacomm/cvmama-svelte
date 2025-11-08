@@ -1,0 +1,8 @@
+title: General
+data:
+  title_separator: '|'
+  site_json_ld_type: organization
+  use_breadcrumbs: true
+  site_name: cvmama
+  organization_name: 'cvmama career services'
+  organization_logo: cvmama-logo.png

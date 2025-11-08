@@ -21,12 +21,6 @@ tabs:
               localizable: true
               max_items: 1
           -
-            handle: template
-            field:
-              type: template
-              display: Template
-              localizable: true
-          -
             handle: blocks
             field:
               type: replicator
@@ -39,6 +33,131 @@ tabs:
                     hero:
                       display: Hero
                       icon: addon-boxes-stack
+                      fields: {  }
+                    hero_1:
+                      display: 'Hero 1'
+                      icon: addon-boxes-stack
+                      fields: {  }
+                    hero_2:
+                      display: 'Hero 2'
+                      icon: addon-boxes-stack
+                      fields: {  }
+                    hero_3:
+                      display: 'Hero 3'
+                      fields: {  }
+                    hero_4:
+                      display: 'Hero 4'
+                      fields: {  }
+                    hero_5:
+                      display: 'Hero 5'
+                      fields: {  }
+                    hero_6:
+                      display: 'Hero 6'
+                      fields: {  }
+                    hero_7:
+                      display: 'Hero 7'
+                      fields: {  }
+                    hero_8:
+                      display: 'Hero 8'
+                      fields: {  }
+                    hero_9:
+                      display: 'Hero 9'
+                      fields: {  }
+                    hero_10:
+                      display: 'Hero 10'
+                      fields: {  }
+                how_it_works_blocks:
+                  display: 'How It Works Blocks'
+                  icon: addon-boxes-stack
+                  sets:
+                    works_default:
+                      display: 'works Default'
+                      icon: addon-boxes-stack
+                      fields: {  }
+                    works_2:
+                      display: 'works 2'
+                      icon: addon-boxes-stack
+                      fields: {  }
+                    works_3:
+                      display: 'Works 3'
+                      icon: addon-boxes-stack
+                      fields: {  }
+                features_blocks:
+                  display: 'Features Blocks'
+                  icon: addon-boxes-stack
+                  sets:
+                    feature_1:
+                      display: 'feature 1'
+                      icon: addon-boxes-stack
+                      fields: {  }
+                    feature_2:
+                      display: 'Feature 2'
+                      fields: {  }
+                cta_blocks:
+                  display: 'CTA Blocks'
+                  icon: addon-boxes-stack
+                  sets:
+                    cta_1:
+                      display: 'cta 1'
+                      icon: addon-boxes-stack
+                      fields: {  }
+                    cta_2:
+                      display: 'CTA 2'
+                      icon: addon-boxes-stack
+                      fields: {  }
+                testimonials_blocks:
+                  display: 'Testimonials Blocks'
+                  icon: addon-boxes-stack
+                  sets:
+                    testimonial_1:
+                      display: 'testimonial 1'
+                      icon: addon-boxes-stack
+                      fields: {  }
+                    testimonial_2:
+                      display: 'Testimonial 2'
+                      fields: {  }
+                    testimonial_3:
+                      display: 'Testimonial 3'
+                      fields: {  }
+                blog_blocks:
+                  display: 'Blog Blocks'
+                  icon: addon-boxes-stack
+                  sets:
+                    blog:
+                      display: Blog
+                      icon: addon-boxes-stack
+                      fields: {  }
+                    blog_1:
+                      display: 'Blog 1'
+                      fields: {  }
+                team:
+                  display: Team
+                  icon: addon-boxes-stack
+                  sets:
+                    team:
+                      display: Team
+                      icon: addon-boxes-stack
+                      fields: {  }
+                faq:
+                  display: FAQ
+                  sets:
+                    faq:
+                      display: FAQ
+                      fields: {  }
+                pricing:
+                  display: Pricing
+                  sets:
+                    pricing:
+                      display: pricing
+                      fields: {  }
+                facts:
+                  display: Facts
+                  sets:
+                    facts:
+                      display: facts
+                      fields: {  }
+                    facts_1:
+                      display: 'facts 1'
                       fields: {  }
   sidebar:
     display: Sidebar

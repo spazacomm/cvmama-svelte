@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {{ seo:head }}
+
+    <!-- <link rel="shortcut icon" href="/sandbox/img/favicon.png"> -->
+    <link rel="stylesheet" href="/sandbox/css/plugins.css">
+    <link rel="stylesheet" href="/sandbox/css/style.css"> 
+
+    {{ vite src="resources/js/site.js|resources/css/site.css" }}
+
+    
+    
+</head>
+
+<body>
+
+    {{ seo:body }}
+
+    <div class="content-wrapper">
+        {{partial:partials/header}}
+        {{template_content}}
+    </div>
+    <!-- /.content-wrapper -->
+    {{partial:partials/footer}}
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+
+
+    <script data-cfasync="false" src="/sandbox/email-decode.min.js"></script>
+     <script src="/sandbox/js/plugins.js"></script>
+
+      <!-- libraries first -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/headhesive.js@1.2.4/dist/headhesive.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/gh/markgoodyear/headhesive.js/dist/headhesive.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/svg-injector@1.1.3/dist/svg-injector.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/rellax@1.12.1/rellax.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/scrollcue@1.1.0/dist/scrollCue.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9.3.2/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.11/dist/plyr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/waypoints/lib/noframework.waypoints.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/counterup2@2.0.2/dist/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/itooltip@1.0.0/dist/itooltip.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/replaceme@1.0.0/dist/replaceme.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+
+  <script src="https://unpkg.com/scrollcue@1.1.0/dist/scrollCue.min.js"></script>
+
+
+
+
+    <script src="/sandbox/js/theme.js"></script> 
+</body>
+
+</html>

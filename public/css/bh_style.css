@@ -42,10 +42,21 @@ html {
     font-family: sans-serif
 }
 
+
+
 body {
     margin: 0
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+  
 article,
 aside,
 details,
@@ -4327,7 +4338,7 @@ header:not(.legacy) {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0;
-    padding: 0 16px;
+    padding: 0 106px;
     display: flex;
     position: fixed;
     top: 0;
@@ -15717,7 +15728,7 @@ body[id*=set_password] .main-content h3 {
 #main .hero-wrapper.home-illus-cta-btn-hero-wrapper {
     isolation: isolate;
     height: auto;
-    background: #6BB4C9
+    background: #1faedf
 }
 
 #main .hero-wrapper.home-illus-cta-btn-hero-wrapper:after {
