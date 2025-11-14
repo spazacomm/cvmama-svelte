@@ -4,5 +4,18 @@ blueprint: page
 title: 'Career Agents'
 author: e20ca7e3-df79-4247-a3dc-3fc15b164684
 updated_by: e20ca7e3-df79-4247-a3dc-3fc15b164684
-updated_at: 1762611188
+updated_at: 1763125755
+blocks:
+  -
+    id: mhyvh4ir
+    type: hero_2
+    enabled: false
+  -
+    id: mhyvhwzh
+    type: feature_2
+    enabled: true
+  -
+    id: mhyviqd0
+    type: faq
+    enabled: true
 ---
