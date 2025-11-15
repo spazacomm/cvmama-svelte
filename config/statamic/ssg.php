@@ -41,6 +41,7 @@ return [
     'copy' => [
         public_path('build') => 'build',
         public_path('sandbox') => 'sandbox', 
+        public_path('profession') => 'profession', 
     ],
 
     'symlinks' => [
