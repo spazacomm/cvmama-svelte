@@ -8,83 +8,41 @@
 
             <div class="menu-header-menu-container">
                 <ul id="primary-menu" class="menu nav-menu">
+
+                    {{ nav:main_nav }} 
+
+
+                    {{if children}}
+
                     <li id="menu-item-39001"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-39001">
-                        <a href="/reverse-recruiting/">Reverse
-                            Recruiting</a><button class="sub-menu-toggle" aria-expanded="false"
-                            aria-label="more">
-                            <svg width="26" height="14" viewBox="0 0 26 14" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.5 1.43457L13 12.4346L24.5 1.43457" stroke="currentColor"
-                                    stroke-width="2"></path>
-                            </svg>
-                        </button>
-                        <ul class="sub-menu">
-                            <li id="menu-item-71095"
-                                class="highlighted menu-item menu-item-type-post_type menu-item-object-page menu-item-71095">
-                                <a href="/reverse-recruiting/">Reverse
-                                    Recruiting</a></li>
-                            <li id="menu-item-71098"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71098">
-                                <a href="/our-process/">How it works</a></li>
-                            <li id="menu-item-71096"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71096">
-                                <a href="/rr-reviews/">Reviews &amp;
-                                    Testimonials</a></li>
-                            <li id="menu-item-71097"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71097">
-                                <a href="/where-our-clients-land/">Benefits</a></li>
-                            <li id="menu-item-71100"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71100">
-                                <a href="/rr-pricing/">Pricing &amp;
-                                    Packages</a></li>
-                            <li id="menu-item-72169"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72169">
-                                <a href="/interview-guarantee/">Job Offer
-                                    Guarantee</a></li>
-                            <li id="menu-item-71099"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71099">
-                                <a href="/get-started/">Get Started</a></li>
-                        </ul>
-                    </li>
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-39001">
+                    <a href="{{url}}}}">{{title}}</a><button class="sub-menu-toggle" aria-expanded="false"
+                        aria-label="more">
+                        <svg width="26" height="14" viewBox="0 0 26 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1.43457L13 12.4346L24.5 1.43457" stroke="currentColor"
+                                stroke-width="2"></path>
+                        </svg>
+                    </button>
+                    <ul class="sub-menu">
+                        {{children}}
+                        <li id="menu-item-71095"
+                            class="highlighted menu-item menu-item-type-post_type menu-item-object-page menu-item-71095">
+                            <a href="{{url}}">{{title}}</a></li>
+                                {{/children}}
+                        
+                    </ul>
+                </li>
+                    {{ else }}
                     <li id="menu-item-61079"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61079"><a
-                            href="/contact-us/">Insights</a></li>
-                    <li id="menu-item-45796"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45796">
-                        <a href="/#">Company</a><button class="sub-menu-toggle"
-                            aria-expanded="false" aria-label="more">
-                            <svg width="26" height="14" viewBox="0 0 26 14" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.5 1.43457L13 12.4346L24.5 1.43457" stroke="currentColor"
-                                    stroke-width="2"></path>
-                            </svg>
-                        </button>
-                        <ul class="sub-menu">
-                            <!-- <li id="menu-item-67129"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67129">
-                                <a href="/career-coaching/">Career Coaching</a>
-                            </li> -->
-                            <!-- <li id="menu-item-45792"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45792">
-                                <a href="/outplacement/">Outplacement</a></li> -->
-                            <li id="menu-item-45794"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45794">
-                                <a href="/about-us/">About Us</a></li>
-                            <li id="menu-item-35067"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35067">
-                                <a href="/reviews/">Reviews</a></li>
-                            <li id="menu-item-45793"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45793">
-                                <a href="/faq/">FAQs</a></li>
-                            <li id="menu-item-34576"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34576">
-                                <a href="/career-advice/">Contacts</a></li>
-                        </ul>
-                    </li>
-                    <!-- <li id="menu-item-61079"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61079"><a
-                            href="/contact-us/">Contact Us</a></li> -->
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61079"><a
+                        href="{{url}}">{{title}}</a></li>
+                    {{/if}}
+                   
+                    
+                 
+
+                    {{/nav:main_nav }} 
                 </ul>
             </div>
         </nav><!-- #site-navigation -->
