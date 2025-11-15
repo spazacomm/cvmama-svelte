@@ -1,8 +1,9 @@
 ---
-id: 589f37d5-04b3-4469-939f-4f9942b373f9
+id: c614b6d3-bada-44e2-af00-f5c2828445c0
 blueprint: page
-title: Pricing
+title: Partners
 author: e20ca7e3-df79-4247-a3dc-3fc15b164684
+template: profession/partners
 updated_by: e20ca7e3-df79-4247-a3dc-3fc15b164684
-updated_at: 1763218590
+updated_at: 1763223191
 ---

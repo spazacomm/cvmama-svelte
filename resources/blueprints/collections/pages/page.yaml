@@ -179,3 +179,9 @@ tabs:
               max_items: 1
               listable: false
               localizable: true
+          -
+            handle: template
+            field:
+              folder: profession
+              type: template
+              display: Template

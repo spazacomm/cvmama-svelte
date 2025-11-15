@@ -4,5 +4,6 @@ blueprint: page
 title: Testimonials
 author: e20ca7e3-df79-4247-a3dc-3fc15b164684
 updated_by: e20ca7e3-df79-4247-a3dc-3fc15b164684
-updated_at: 1763218625
+updated_at: 1763222087
+template: profession/reviews
 ---

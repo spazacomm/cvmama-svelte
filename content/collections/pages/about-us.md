@@ -4,5 +4,6 @@ blueprint: page
 title: 'About Us'
 author: e20ca7e3-df79-4247-a3dc-3fc15b164684
 updated_by: e20ca7e3-df79-4247-a3dc-3fc15b164684
-updated_at: 1762611457
+updated_at: 1763222540
+template: profession/about
 ---

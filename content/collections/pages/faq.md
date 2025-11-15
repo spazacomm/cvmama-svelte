@@ -4,5 +4,6 @@ blueprint: page
 title: FAQ
 author: e20ca7e3-df79-4247-a3dc-3fc15b164684
 updated_by: e20ca7e3-df79-4247-a3dc-3fc15b164684
-updated_at: 1762611195
+updated_at: 1763222548
+template: profession/faq
 ---

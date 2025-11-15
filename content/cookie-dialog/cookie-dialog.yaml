@@ -1,0 +1,37 @@
+enabled: true
+button_enabled: true
+version: null
+groups:
+  -
+    identifier: essential
+    name: 'Required Cookies'
+    description: 'We use essential cookies on our website to enable basic functions and to ensure the security of our site.'
+    required: true
+    enabled_default: true
+    cookies:
+      -
+        cookie_identifier: example
+        cookie_name: Example
+        cookie_description: 'An example cookie.'
+        cookie_lifetime: '1 year'
+        _id: SYY6Drrf
+        type: cookie
+        enabled: true
+    _id: kokSMWlG
+    type: cookie-group
+    enabled: true
+heading: 'We use Cookies'
+description: 'To give you the best experience on our website, we use cookies. These small files help us to optimize our site by understanding how you use it, analyzing traffic and offering you personalized content. You can change your mind anytime by clicking the "Cookie Preferences" button in our privacy policy.'
+info_pages:
+  imprint_link: /imprint
+  imprint_title: Imprint
+  privacy_policy_link: /privacy-policy
+  privacy_policy_title: 'Privacy Policy'
+accept_all: 'Accept All'
+save_preferences: 'Save Settings'
+cookie_details: Cookies
+button_position: bottom_left
+button_text: Cookies
+dark_light_mode: auto
+highlight_color: '#256eff'
+highlight_color_dark: '#599dff'

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e781812a380e56f07c75e6c47f86e5e0",
+    "content-hash": "918b183d945c6b55eb2db16e24f26fb7",
     "packages": [
         {
             "name": "aerni/advanced-seo",
@@ -720,6 +720,57 @@
                 }
             ],
             "time": "2025-03-06T22:45:56+00:00"
+        },
+        {
+            "name": "emplify-software/statamic-cookie-dialog",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emplify-software/statamic-cookie-dialog.git",
+                "reference": "5e8cdcb94eb3d7da8a20e6d9c3de5a86bd7caeb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emplify-software/statamic-cookie-dialog/zipball/5e8cdcb94eb3d7da8a20e6d9c3de5a86bd7caeb0",
+                "reference": "5e8cdcb94eb3d7da8a20e6d9c3de5a86bd7caeb0",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=10",
+                "laravel/tinker": "^2.9",
+                "php": "^8.2",
+                "statamic/cms": ">=4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "EmplifySoftware\\StatamicCookieDialog\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Cookie Dialog",
+                    "editions": [
+                        "free",
+                        "pro"
+                    ],
+                    "description": "A comprehensive cookie dialog for your Statamic site to manage cookie groups and their respective cookies with ease."
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "EmplifySoftware\\StatamicCookieDialog\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "support": {
+                "issues": "https://github.com/emplify-software/statamic-cookie-dialog/issues",
+                "source": "https://github.com/emplify-software/statamic-cookie-dialog/tree/v2.0.2"
+            },
+            "time": "2025-07-14T07:21:34+00:00"
         },
         {
             "name": "fruitcake/php-cors",

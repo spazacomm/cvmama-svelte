@@ -4,7 +4,7 @@ blueprint: page
 title: Insights
 author: e20ca7e3-df79-4247-a3dc-3fc15b164684
 updated_by: e20ca7e3-df79-4247-a3dc-3fc15b164684
-updated_at: 1763125591
+updated_at: 1763223205
 blocks:
   -
     id: mhyvdz0x
@@ -22,4 +22,5 @@ blocks:
     id: mhyvfstm
     type: cta_2
     enabled: true
+template: profession/blog
 ---

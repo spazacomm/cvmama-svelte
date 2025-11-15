@@ -12,6 +12,7 @@
     "require": {
         "php": "^8.2",
         "aerni/advanced-seo": "^2.13",
+        "emplify-software/statamic-cookie-dialog": "^2.0",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "statamic/cms": "^5.0",
