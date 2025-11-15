@@ -12,13 +12,9 @@ export default defineConfig({
         viteStaticCopy({
             targets: [
               {
-                src: 'public/sandbox',   // folder to copy
-                dest: ''                 // copies into build output root
-              },
-              {
                 src: 'public/profession',   // folder to copy
                 dest: ''                 // copies into build output root
-              },
+              }
             ],
         }),
         tailwindcss(),
