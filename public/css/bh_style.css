@@ -293,13 +293,13 @@ textarea {
 }
 
 a {
-    color: #6BB4C9;
+    color: #F28C7A;
     text-decoration: none
 }
 
 a:hover,
 a:focus {
-    color: #6BB4C9;
+    color: #F28C7A;
     text-decoration: underline
 }
 
@@ -1467,9 +1467,9 @@ output {
 }
 
 .form-control:focus {
-    border-color: #6BB4C9;
+    border-color: #F28C7A;
     outline: 0;
-    box-shadow: inset 0 1px 1px #00000013, 0 0 8px #6BB4C999
+    box-shadow: inset 0 1px 1px #00000013, 0 0 8px #F28C7A99
 }
 
 .form-control::-moz-placeholder {
@@ -2049,7 +2049,7 @@ select[multiple].input-lg,
 .btn:hover,
 .btn:focus,
 .btn.focus {
-    color: #6BB4C9;
+    color: #F28C7A;
     text-decoration: none
 }
 
@@ -2076,7 +2076,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #F28C7A;
     border-color: #0000
 }
@@ -2087,7 +2087,7 @@ fieldset[disabled] a.btn {
 .btn-default:active,
 .btn-default.active,
 .open>.btn-default.dropdown-toggle {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #84d175;
     border-color: #0000
 }
@@ -2101,7 +2101,7 @@ fieldset[disabled] a.btn {
 .open>.btn-default.dropdown-toggle:hover,
 .open>.btn-default.dropdown-toggle:focus,
 .open>.btn-default.dropdown-toggle.focus {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #6cc85a;
     border-color: #0000
 }
@@ -2136,7 +2136,7 @@ fieldset[disabled] .btn-default.active {
 
 .btn-default .badge {
     color: #F28C7A;
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 .btn-primary {
@@ -2151,7 +2151,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open>.btn-primary.dropdown-toggle {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #84d175;
     border-color: #0000
 }
@@ -2165,7 +2165,7 @@ fieldset[disabled] .btn-default.active {
 .open>.btn-primary.dropdown-toggle:hover,
 .open>.btn-primary.dropdown-toggle:focus,
 .open>.btn-primary.dropdown-toggle.focus {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #6cc85a;
     border-color: #0000
 }
@@ -2200,12 +2200,12 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: #F28C7A;
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 .btn-success {
     color: #fff;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border-color: #31693f
 }
 
@@ -2263,12 +2263,12 @@ fieldset[disabled] .btn-success:focus,
 fieldset[disabled] .btn-success.focus,
 fieldset[disabled] .btn-success:active,
 fieldset[disabled] .btn-success.active {
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border-color: #31693f
 }
 
 .btn-success .badge {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #fff
 }
 
@@ -2480,7 +2480,7 @@ fieldset[disabled] .btn-danger.active {
 }
 
 .btn-link {
-    color: #6BB4C9;
+    color: #F28C7A;
     border-radius: 0;
     font-weight: 400
 }
@@ -2504,7 +2504,7 @@ fieldset[disabled] .btn-link {
 
 .btn-link:hover,
 .btn-link:focus {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #0000;
     text-decoration: underline
 }
@@ -2605,7 +2605,7 @@ input[type=button].btn-block {
 .nav .open>a:hover,
 .nav .open>a:focus {
     background-color: #eee;
-    border-color: #6BB4C9
+    border-color: #F28C7A
 }
 
 .nav .nav-divider {
@@ -3313,7 +3313,7 @@ input[type=button].btn-block {
 }
 
 .alert-success {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #f5fbf4;
     border-color: #F28C7A
 }
@@ -4355,13 +4355,13 @@ header:not(.legacy) .skip-link {
 
 header:not(.legacy) .skip-link:focus {
     top: 80px;
-    color: #6BB4C9 !important;
+    color: #F28C7A !important;
     background-color: #F28C7A !important;
     border-color: #F28C7A !important
 }
 
 header:not(.legacy).dark-bg .skip-link:focus {
-    color: #6BB4C9 !important;
+    color: #F28C7A !important;
     background-color: #f5f7f5 !important;
     border-color: #f5f7f5 !important
 }
@@ -4430,7 +4430,7 @@ header:not(.legacy)[data-mobile-menu-open=true] {
 
 header:not(.legacy).scroll-header ul.right>a>li,
 header:not(.legacy)[data-mobile-menu-open=true] ul.right>a>li {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 header:not(.legacy).scroll-header ul.main>a>li,
@@ -4562,11 +4562,11 @@ header:not(.legacy) div#phone.inactive {
 
 header:not(.legacy) div#phone.active {
     color: #fff;
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 header:not(.legacy) div#phone.active:hover {
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 header:not(.legacy) ul {
@@ -4605,7 +4605,7 @@ header:not(.legacy) ul.main>a>li:hover {
 header:not(.legacy) ul.main>li.active,
 header:not(.legacy) ul.main>a>li.active {
     color: #4a4d4a;
-    border-bottom: 5px solid #6BB4C9
+    border-bottom: 5px solid #F28C7A
 }
 
 header:not(.legacy) ul.right {
@@ -4632,7 +4632,7 @@ header:not(.legacy) ul.right a {
 header:not(.legacy) ul.right>a>li,
 header:not(.legacy) ul.right>li,
 header:not(.legacy) ul.right>li>a {
-    color: #6BB4C9;
+    color: #F28C7A;
     border-bottom: 4px solid #0000;
     display: inline-block;
     position: relative
@@ -4673,7 +4673,7 @@ header:not(.legacy) ul.right #counselor-hours-dropdown {
 }
 
 header:not(.legacy) ul.right #counselor-hours-dropdown a {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 header:not(.legacy) ul.right #counselor-hours-dropdown a:hover {
@@ -5137,7 +5137,7 @@ header:not(.legacy) .exp__sitemap-pages-cta a {
 }
 
 .progress-bar-tooltip.in-header a {
-    color: #6BB4C9 !important
+    color: #F28C7A !important
 }
 
 .progress-bar-tooltip.in-header:after {
@@ -5228,7 +5228,7 @@ body .alert_wrapper .alert-notify {
 }
 
 .fa-gift {
-    color: #6BB4C9;
+    color: #F28C7A;
     margin-right: 5px
 }
 
@@ -5440,7 +5440,7 @@ body .alert_wrapper .alert-notify {
         font-size: 20px;
         line-height: 50px;
         display: block;
-        color: #6BB4C9 !important
+        color: #F28C7A !important
     }
 
     .tw-user-counselor header:not(.legacy) ul.main a>li .fa-angle-down,
@@ -5538,7 +5538,7 @@ body .alert_wrapper .alert-notify {
     .tw-user-counselor header:not(.legacy) ul.main li.highlight,
     .tw-user-counselor header:not(.legacy) ul.right a>li.highlight,
     .tw-user-counselor header:not(.legacy) ul.right li.highlight {
-        color: #6BB4C9;
+        color: #F28C7A;
         font-weight: 700
     }
 
@@ -5622,31 +5622,31 @@ body .alert_wrapper .alert-notify {
 
     .tw-user-counselor header:not(.legacy) ul.right .btn.btn-primary:hover {
         color: #fff;
-        background-color: #6BB4C9;
-        border-color: #6BB4C9
+        background-color: #F28C7A;
+        border-color: #F28C7A
     }
 
     .tw-user-counselor header:not(.legacy) ul.right .btn.btn-primary:active,
     .tw-user-counselor header:not(.legacy) ul.right .btn.btn-primary:focus {
         color: #fff;
-        background-color: #6BB4C9;
-        border-color: #6BB4C9;
+        background-color: #F28C7A;
+        border-color: #F28C7A;
         outline: none
     }
 
     .tw-user-counselor header:not(.legacy) ul.right .btn.btn-info,
     .tw-user-counselor header:not(.legacy) ul.right .btn-link {
-        color: #6BB4C9;
+        color: #F28C7A;
         background-color: #0000;
-        border-color: #6BB4C9;
+        border-color: #F28C7A;
         text-decoration: none
     }
 
     .tw-user-counselor header:not(.legacy) ul.right .btn.btn-info:hover,
     .tw-user-counselor header:not(.legacy) ul.right .btn-link:hover {
         color: #fff;
-        background-color: #6BB4C9;
-        border-color: #6BB4C9;
+        background-color: #F28C7A;
+        border-color: #F28C7A;
         text-decoration: none
     }
 
@@ -5796,7 +5796,7 @@ body .alert_wrapper .alert-notify {
         font-size: 20px;
         line-height: 50px;
         display: block;
-        color: #6BB4C9 !important
+        color: #F28C7A !important
     }
 
     header:not(.legacy) ul.main a>li .fa-angle-down,
@@ -5894,7 +5894,7 @@ body .alert_wrapper .alert-notify {
     header:not(.legacy) ul.main li.highlight,
     header:not(.legacy) ul.right a>li.highlight,
     header:not(.legacy) ul.right li.highlight {
-        color: #6BB4C9;
+        color: #F28C7A;
         font-weight: 700
     }
 
@@ -5978,31 +5978,31 @@ body .alert_wrapper .alert-notify {
 
     header:not(.legacy) ul.right .btn.btn-primary:hover {
         color: #fff;
-        background-color: #6BB4C9;
-        border-color: #6BB4C9
+        background-color: #F28C7A;
+        border-color: #F28C7A
     }
 
     header:not(.legacy) ul.right .btn.btn-primary:active,
     header:not(.legacy) ul.right .btn.btn-primary:focus {
         color: #fff;
-        background-color: #6BB4C9;
-        border-color: #6BB4C9;
+        background-color: #F28C7A;
+        border-color: #F28C7A;
         outline: none
     }
 
     header:not(.legacy) ul.right .btn.btn-info,
     header:not(.legacy) ul.right .btn-link {
-        color: #6BB4C9;
+        color: #F28C7A;
         background-color: #0000;
-        border-color: #6BB4C9;
+        border-color: #F28C7A;
         text-decoration: none
     }
 
     header:not(.legacy) ul.right .btn.btn-info:hover,
     header:not(.legacy) ul.right .btn-link:hover {
         color: #fff;
-        background-color: #6BB4C9;
-        border-color: #6BB4C9;
+        background-color: #F28C7A;
+        border-color: #F28C7A;
         text-decoration: none
     }
 
@@ -6140,9 +6140,9 @@ body .alert_wrapper .alert-notify {
         width: 100%;
         height: 56px;
         text-align: center;
-        color: #6BB4C9;
+        color: #F28C7A;
         background-color: #0000;
-        border: 1px solid #6BB4C9;
+        border: 1px solid #F28C7A;
         border-radius: 6.25rem;
         padding: 15px 36px;
         font-family: Overpass, sans-serif;
@@ -6154,8 +6154,8 @@ body .alert_wrapper .alert-notify {
 
     .designed-funnel #body-container #content-container ul.nav ul.dropdown-menu>a>li:hover {
         color: #fff;
-        background-color: #6BB4C9;
-        border-color: #6BB4C9;
+        background-color: #F28C7A;
+        border-color: #F28C7A;
         text-decoration: none
     }
 
@@ -6313,7 +6313,7 @@ footer #lowerbar a {
 footer #lowerbar a:hover,
 footer #lowerbar a:active,
 footer #lowerbar a:focus {
-    color: #6BB4C9;
+    color: #F28C7A;
     text-decoration: underline
 }
 
@@ -6346,7 +6346,7 @@ footer #lowerbar ul li.social {
     height: 2rem;
     text-align: center;
     color: #fff;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border-radius: 50%;
     margin-left: .5rem;
     margin-right: 0;
@@ -6358,7 +6358,7 @@ footer #lowerbar ul li.social {
 footer #lowerbar ul a:hover>li.social,
 footer #lowerbar ul a:active>li.social,
 footer #lowerbar ul a:focus>li.social {
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     text-decoration: none
 }
 
@@ -6543,7 +6543,7 @@ footer #lowerbar.single p {
     content: "";
     height: 64px;
     z-index: -1;
-    background: #6BB4C9;
+    background: #F28C7A;
     border-radius: 50% 50% 0 0/100% 100% 0 0;
     position: absolute;
     top: 0;
@@ -6588,7 +6588,7 @@ footer #lowerbar.single p {
     color: #f5f7f5;
     height: 48px;
     text-align: center;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     margin-bottom: 20px;
     display: block
 }
@@ -7274,7 +7274,7 @@ footer #lowerbar.single p {
 }
 
 .dark-bg {
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 .btn {
@@ -7335,8 +7335,8 @@ footer #lowerbar.single p {
 .btn.btn-default:hover,
 .btn.btn-primary:hover {
     color: #f5f7f5;
-    background-color: #6BB4C9;
-    border-color: #6BB4C9
+    background-color: #F28C7A;
+    border-color: #F28C7A
 }
 
 .btn.btn-default:active,
@@ -7344,8 +7344,8 @@ footer #lowerbar.single p {
 .btn.btn-primary:active,
 .btn.btn-primary:focus {
     color: #f5f7f5;
-    background-color: #6BB4C9;
-    border-color: #6BB4C9;
+    background-color: #F28C7A;
+    border-color: #F28C7A;
     outline: none
 }
 
@@ -7360,26 +7360,26 @@ footer #lowerbar.single p {
 
 .btn.btn-info,
 .btn.btn-dismiss {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #0000;
-    border-color: #6BB4C9
+    border-color: #F28C7A
 }
 
 .btn.btn-info:hover,
 .btn.btn-dismiss:hover {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #f5fbf4;
-    border-color: #6BB4C9
+    border-color: #F28C7A
 }
 
 .btn.btn-info:active,
 .btn.btn-info:focus,
 .btn.btn-dismiss:active,
 .btn.btn-dismiss:focus {
-    color: #6BB4C9;
+    color: #F28C7A;
     box-shadow: none;
     background-color: #def6d9;
-    border-color: #6BB4C9;
+    border-color: #F28C7A;
     outline: none
 }
 
@@ -7393,9 +7393,9 @@ footer #lowerbar.single p {
 }
 
 .btn.btn-secondary {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #0000;
-    border-color: #6BB4C9
+    border-color: #F28C7A
 }
 
 .btn.btn-secondary:hover {
@@ -7416,7 +7416,7 @@ footer #lowerbar.single p {
 }
 
 .btn.btn-tertiary {
-    color: #6BB4C9;
+    color: #F28C7A;
     min-width: unset;
     height: auto;
     line-height: unset;
@@ -7429,7 +7429,7 @@ footer #lowerbar.single p {
     width: 1.5rem;
     height: 1.5rem;
     vertical-align: middle;
-    border: 1px solid #6BB4C9;
+    border: 1px solid #F28C7A;
     border-radius: 50%;
     margin-left: .5rem;
     font-size: 1rem;
@@ -7439,7 +7439,7 @@ footer #lowerbar.single p {
 
 .btn.btn-tertiary:hover>i:before {
     color: #f5f7f5;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border-color: #0000
 }
 
@@ -7452,7 +7452,7 @@ footer #lowerbar.single p {
 .btn.btn-tertiary:active>i:before,
 .btn.btn-tertiary:focus>i:before {
     color: #f5f7f5;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border-color: #0000
 }
 
@@ -7558,7 +7558,7 @@ footer #lowerbar.single p {
 }
 
 .btn-link {
-    color: #6BB4C9;
+    color: #F28C7A;
     background: 0 0;
     padding: 0;
     font-size: 1rem;
@@ -7581,7 +7581,7 @@ footer #lowerbar.single p {
 }
 
 .btn-link:hover {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 .btn-link:active,
@@ -7743,7 +7743,7 @@ h5,
 }
 
 .txt-emphasis {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 .dark-bg .txt-emphasis,
@@ -7787,13 +7787,13 @@ q,
 [href]:not(use, .accordion-toggle, .drop-list, .btn, .on-dark) {
     font-size: inherit;
     line-height: inherit;
-    color: #6BB4C9;
+    color: #F28C7A;
     font-weight: 600;
     text-decoration: underline
 }
 
 [href]:not(use, .accordion-toggle, .drop-list, .btn, .on-dark):hover {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 [href]:not(use, .accordion-toggle, .drop-list, .btn, .on-dark):active,
@@ -7907,7 +7907,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
     -webkit-text-fill-color: #4a4d4a;
-    border: 1px solid #6BB4C9;
+    border: 1px solid #F28C7A;
     transition: background-color 5000s ease-in-out;
     box-shadow: inset 0 0 0 1000px #fffcf6
 }
@@ -7921,7 +7921,7 @@ textarea:-webkit-autofill:focus:hover:enabled,
 select:-webkit-autofill:hover:enabled,
 select:-webkit-autofill:hover:hover:enabled,
 select:-webkit-autofill:focus:hover:enabled {
-    box-shadow: inset 0 0 0 1000px #fffcf6, 0 0 0 2px #6BB4C9, 0 0 0 7px #F28C7A
+    box-shadow: inset 0 0 0 1000px #fffcf6, 0 0 0 2px #F28C7A, 0 0 0 7px #F28C7A
 }
 
 .form-control {
@@ -7937,14 +7937,14 @@ select:-webkit-autofill:focus:hover:enabled {
 
 .form-control:hover:enabled {
     border-width: 2px;
-    border-color: #6BB4C9;
-    box-shadow: inset 0 0 #6BB4C9, 0 0 0 4px #F28C7A
+    border-color: #F28C7A;
+    box-shadow: inset 0 0 #F28C7A, 0 0 0 4px #F28C7A
 }
 
 .form-control:active,
 .form-control:focus {
     border-width: 2px;
-    box-shadow: 0 0 #6BB4C9
+    box-shadow: 0 0 #F28C7A
 }
 
 .form-control[disabled] {
@@ -8157,7 +8157,7 @@ select:-webkit-autofill:focus:hover:enabled {
 .form-check input[type=checkbox]:before {
     width: 8px;
     height: 16px;
-    border: 3px solid #6BB4C9;
+    border: 3px solid #F28C7A;
     border-width: 0 3px 3px 0;
     top: 2px;
     left: 8px;
@@ -8171,7 +8171,7 @@ select:-webkit-autofill:focus:hover:enabled {
 .form-check input[type=radio]:before {
     width: 8px;
     height: 8px;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border-radius: 50%;
     top: 7px;
     left: 8px
@@ -8209,7 +8209,7 @@ select:-webkit-autofill:focus:hover:enabled {
 }
 
 .ff-question-container {
-    color: #6BB4C9;
+    color: #F28C7A;
     clear: both;
     background-color: #def6d9;
     border-radius: 5px;
@@ -8379,7 +8379,7 @@ select:-webkit-autofill:focus:hover:enabled {
 
 #questionnaire .questionnaire-content .big_button label.radio,
 #start-question-slider .questionnaire-content .big_button label.radio {
-    color: #6BB4C9;
+    color: #F28C7A;
     text-align: left;
     background-color: #F28C7A;
     border-radius: 6.25rem;
@@ -8404,13 +8404,13 @@ select:-webkit-autofill:focus:hover:enabled {
 #start-question-slider .questionnaire-content .big_button label.radio:hover {
     color: #f5f7f5;
     cursor: pointer;
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 #questionnaire .questionnaire-content .big_button label.radio:active,
 #start-question-slider .questionnaire-content .big_button label.radio:active {
     color: #f5f7f5;
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 #questionnaire .questionnaire-content .big_button label.radio:active,
@@ -8460,13 +8460,13 @@ select:-webkit-autofill:focus:hover:enabled {
 
 #questionnaire .questionnaire-content .illus-btn label.radio.redirect-0,
 #start-question-slider .questionnaire-content .illus-btn label.radio.redirect-0 {
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 #questionnaire .questionnaire-content .illus-btn label.radio.redirect-0:hover,
 #start-question-slider .questionnaire-content .illus-btn label.radio.redirect-0:hover {
-    background-color: #6BB4C9;
-    border-color: #6BB4C9;
+    background-color: #F28C7A;
+    border-color: #F28C7A;
     box-shadow: 0 0 4px #25262526, 0 18px 28px #25262526
 }
 
@@ -8476,7 +8476,7 @@ select:-webkit-autofill:focus:hover:enabled {
 #start-question-slider .questionnaire-content .illus-btn label.radio.redirect-0:active,
 #start-question-slider .questionnaire-content .illus-btn label.radio.redirect-0:focus,
 #start-question-slider .questionnaire-content .illus-btn label.radio.redirect-0.pressed {
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 #questionnaire .questionnaire-content .illus-btn label.radio.redirect-0:before,
@@ -8624,7 +8624,7 @@ select:-webkit-autofill:focus:hover:enabled {
     #start-question-slider .questionnaire-content .illus-btn label.radio.redirect-0:focus .arrow-outer .arrow-inner,
     #start-question-slider .questionnaire-content .illus-btn label.radio.redirect-0:active .arrow-outer .arrow-inner,
     #start-question-slider .questionnaire-content .illus-btn label.radio.redirect-0.pressed .arrow-outer .arrow-inner {
-        color: #6BB4C9
+        color: #F28C7A
     }
 
     #questionnaire .questionnaire-content .illus-btn label.radio.redirect-1[data-redirect-modal=refer_to_regain]:before,
@@ -9020,7 +9020,7 @@ select:-webkit-autofill:focus:hover:enabled {
 
 .modal:not(.partial) .modal-content button.close {
     opacity: 1;
-    color: #6BB4C9;
+    color: #F28C7A;
     background: 0 0;
     font-size: 32px;
     font-weight: 300;
@@ -9092,7 +9092,7 @@ select:-webkit-autofill:focus:hover:enabled {
 }
 
 .modal:not(.partial) .modal-content .modal-body small.green {
-    color: #6BB4C9;
+    color: #F28C7A;
     line-height: 1.4
 }
 
@@ -9295,7 +9295,7 @@ select:-webkit-autofill:focus:hover:enabled {
 }
 
 .dark-bg .tooltip .tooltip-inner {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #f5fbf4
 }
 
@@ -9317,7 +9317,7 @@ select:-webkit-autofill:focus:hover:enabled {
 
 .brand-primary,
 .green-text {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 .additional-icon {
@@ -9349,7 +9349,7 @@ select:-webkit-autofill:focus:hover:enabled {
 .loading-wrap .loading-circle .fa,
 .loading-wrap .loading-circle .fa-solid,
 .loading-wrap .loading-circle .fa-regular {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 .loading-wrap-nonblocking {
@@ -9367,7 +9367,7 @@ select:-webkit-autofill:focus:hover:enabled {
 .loading-wrap-nonblocking .loading-circle .fa,
 .loading-wrap-nonblocking .loading-circle .fa-solid,
 .loading-wrap-nonblocking .loading-circle .fa-regular {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 .inline-loading {
@@ -9578,7 +9578,7 @@ h1:first-child,
 }
 
 h1.special {
-    color: #6BB4C9;
+    color: #F28C7A;
     font-family: Overpass, sans-serif;
     font-size: 40px;
     font-weight: 300
@@ -9663,7 +9663,7 @@ input.form-control {
 
 .password_bar~.password_strength.password_strength_4,
 .password_bar~.password_strength.password_strength_5 {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 span.password_strength {
@@ -9689,7 +9689,7 @@ span.password_strength.password_strength_3 {
 
 span.password_strength.password_strength_4,
 span.password_strength.password_strength_5 {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 .beck-results {
@@ -9862,7 +9862,7 @@ i.red {
 }
 
 i.green {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 i.yellow {
@@ -9891,7 +9891,7 @@ i.yellow {
 
 .online-status.online:after {
     content: "";
-    color: #6BB4C9;
+    color: #F28C7A;
     font-family: "Font Awesome 6 Pro", sans-serif;
     font-style: normal
 }
@@ -9918,15 +9918,15 @@ i.yellow {
 
 @keyframes colorchange {
     0% {
-        color: #6BB4C9
+        color: #F28C7A
     }
 
     50% {
-        color: #6BB4C9
+        color: #F28C7A
     }
 
     to {
-        color: #6BB4C9
+        color: #F28C7A
     }
 }
 
@@ -10007,7 +10007,7 @@ i.yellow {
 
 .testimonial-in-quotes .testimonials .slick-dots li.slick-active button:before {
     opacity: 1;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border: none
 }
 
@@ -10355,7 +10355,7 @@ i.yellow {
 }
 
 .faq-hamburger-mobile-overwrite .nav .dropdown-mobile-toggle:hover {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #0000
 }
 
@@ -10985,7 +10985,7 @@ i.yellow {
 #start #testimonials-container .testimonial-wrapper .slider.testimonials .slick-track .slick-slide table td .counselor {
     text-overflow: ellipsis;
     white-space: nowrap;
-    color: #6BB4C9;
+    color: #F28C7A;
     overflow: hidden
 }
 
@@ -11016,7 +11016,7 @@ i.yellow {
 
 #start #testimonials-container .testimonial-wrapper .slider.testimonials .slick-dots li.slick-active button:before {
     opacity: 1;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border: none
 }
 
@@ -11296,12 +11296,12 @@ i.yellow {
 #start #infographic.test-green .infographic-header:after,
 #start #infographic-carousel-container.test-green .infographic-header,
 #start #infographic-carousel-container.test-green .infographic-header:after {
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 #start #infographic.test-green .carousel-numeral-behind,
 #start #infographic-carousel-container.test-green .carousel-numeral-behind {
-    color: #6BB4C933
+    color: #F28C7A33
 }
 
 #start #infographic.test-green .background-gradient-body,
@@ -11335,7 +11335,7 @@ i.yellow {
 }
 
 #start #intro .green-text {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #start #intro p {
@@ -11747,7 +11747,7 @@ i.yellow {
 
 #start #seo-footer .panel-heading[data-toggle=collapse]:after {
     content: "";
-    color: #6BB4C980;
+    color: #F28C7A80;
     font-family: "Font Awesome 6 Pro", sans-serif;
     font-size: 18px;
     line-height: 22px;
@@ -11836,7 +11836,7 @@ i.yellow {
 }
 
 #start .landing-promo .promo-text strong {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 @media (max-width:991px) {
@@ -11947,7 +11947,7 @@ i.yellow {
 
     #start #gad-phq-tooltip:active,
     #start #gad-phq-tooltip:hover {
-        color: #6BB4C9
+        color: #F28C7A
     }
 }
 
@@ -12081,7 +12081,7 @@ i.yellow {
     }
 
     #start .landing-promo .promo-text strong {
-        color: #6BB4C9
+        color: #F28C7A
     }
 
     #start #landing-promo-custom-template {
@@ -12116,7 +12116,7 @@ i.yellow {
     }
 
     #start #landing-promo-custom-template .landing-crimejunkie-promo .crimejunkie-promo-text strong {
-        color: #6BB4C9
+        color: #F28C7A
     }
 
     #start #landing-promo-custom-template .crimejunkie-message-button-xs {
@@ -12141,7 +12141,7 @@ i.yellow {
     }
 
     #start #landing-promo-custom-template .crimejunkie-message-button-xs .crimejunkie-audio-button {
-        color: #6BB4C9;
+        color: #F28C7A;
         width: 158px;
         height: 40px;
         background-color: #F28C7A;
@@ -12158,14 +12158,14 @@ i.yellow {
 
     #start #landing-promo-custom-template .crimejunkie-message-button-xs .crimejunkie-audio-button:focus,
     #start #landing-promo-custom-template .crimejunkie-message-button-xs .crimejunkie-audio-button:hover {
-        color: #6BB4C9;
+        color: #F28C7A;
         background-color: #F28C7A;
         outline: none
     }
 
     #start #landing-promo-custom-template .crimejunkie-message-button-xs .crimejunkie-audio-button:active {
         color: #f5f7f5;
-        background-color: #6BB4C9;
+        background-color: #F28C7A;
         outline: none
     }
 
@@ -12198,7 +12198,7 @@ i.yellow {
     }
 
     #start .discount-banner .green-text {
-        color: #6BB4C9;
+        color: #F28C7A;
         font-weight: 700
     }
 
@@ -12303,7 +12303,7 @@ i.yellow {
 #app_pin_code input {
     letter-spacing: 10px;
     text-align: center;
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #0000;
     border: 0;
     margin: 0 auto 20px;
@@ -12356,8 +12356,8 @@ i.yellow {
 #app_pin_code div.col-xs-4 .pin-button.highlight,
 #app_pin_code div.col-xs-4 .pin-submit.highlight {
     color: #fff;
-    background-color: #6BB4C9;
-    border-color: #6BB4C9
+    background-color: #F28C7A;
+    border-color: #F28C7A
 }
 
 #app_pin_code div.col-xs-4 .pin-button.highlight:hover,
@@ -12367,8 +12367,8 @@ i.yellow {
 #app_pin_code div.col-xs-4 .pin-submit.highlight:active,
 #app_pin_code div.col-xs-4 .pin-submit.highlight:focus {
     color: #fff;
-    background-color: #6BB4C9;
-    border-color: #6BB4C9
+    background-color: #F28C7A;
+    border-color: #F28C7A
 }
 
 .therapist-info-narrow-content {
@@ -12413,7 +12413,7 @@ i.yellow {
 }
 
 .service-offered-container li .service-offered {
-    color: #6BB4C9;
+    color: #F28C7A;
     margin-right: 4px;
     font-size: 18px
 }
@@ -12466,7 +12466,7 @@ i.yellow {
 }
 
 #next #secure-transaction-tooltip {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #next .quiz-progress-row,
@@ -12505,7 +12505,7 @@ i.yellow {
 #next_simplified .next-header .h1-style var[data-var=product_name],
 #mt_pricing_in_bh_next .next-header h1 var[data-var=product_name],
 #mt_pricing_in_bh_next .next-header .h1-style var[data-var=product_name] {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #next .next-header>.container,
@@ -13064,7 +13064,7 @@ i.yellow {
 #mt_pricing_in_bh_next .start-step #next-outer .russel-notice .fin-aid-title,
 #mt_pricing_in_bh_next .start-step #next-outer .one-time-notice .fin-aid-title,
 #mt_pricing_in_bh_next .start-step #next-outer .pricing-version-promo .fin-aid-title {
-    color: #6BB4C9;
+    color: #F28C7A;
     min-height: 2.5rem;
     vertical-align: middle;
     background: #def6d9 url(//assets.betterhelp.com/betterhelp_two/icons/tag.svg) 16px/30px 30px no-repeat;
@@ -13120,7 +13120,7 @@ i.yellow {
 #mt_pricing_in_bh_next .start-step #next-outer .one-time-notice .fin-aid-title .promo_code,
 #mt_pricing_in_bh_next .start-step #next-outer .pricing-version-promo .fin-aid-title var[promo_code],
 #mt_pricing_in_bh_next .start-step #next-outer .pricing-version-promo .fin-aid-title .promo_code {
-    color: #6BB4C9;
+    color: #F28C7A;
     background: #fff;
     border-radius: 600px;
     padding: .125rem .5rem
@@ -13159,7 +13159,7 @@ i.yellow {
 #mt_pricing_in_bh_next .start-step #next-outer .russel-notice .fin-aid-content .green,
 #mt_pricing_in_bh_next .start-step #next-outer .one-time-notice .fin-aid-content .green,
 #mt_pricing_in_bh_next .start-step #next-outer .pricing-version-promo .fin-aid-content .green {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #next .start-step #next-outer #alt_cc_pay_form .pay-methods input[type=radio],
@@ -13348,7 +13348,7 @@ i.yellow {
 #next .todaystotal .prod-name-color,
 #next_simplified .todaystotal .prod-name-color,
 #mt_pricing_in_bh_next .todaystotal .prod-name-color {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #next .todaystotal td,
@@ -13422,7 +13422,7 @@ i.yellow {
 #next .green,
 #next_simplified .green,
 #mt_pricing_in_bh_next .green {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #next .donation,
@@ -13578,7 +13578,7 @@ i.yellow {
 #next .donation .charity__summary,
 #next_simplified .donation .charity__summary,
 #mt_pricing_in_bh_next .donation .charity__summary {
-    color: #6BB4C9;
+    color: #F28C7A;
     align-items: center;
     gap: 4px;
     font-family: Overpass, sans-serif;
@@ -13712,7 +13712,7 @@ i.yellow {
     height: 20px;
     width: 20px;
     color: #f5fbf4;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border-radius: 100%;
     justify-content: center;
     align-items: center;
@@ -13722,7 +13722,7 @@ i.yellow {
 #next .donation__step--2 .choice__checkmark i,
 #next_simplified .donation__step--2 .choice__checkmark i,
 #mt_pricing_in_bh_next .donation__step--2 .choice__checkmark i {
-    -webkit-text-stroke: 1px #6BB4C9;
+    -webkit-text-stroke: 1px #F28C7A;
     font-size: 14px
 }
 
@@ -13799,7 +13799,7 @@ i.yellow {
 #next .donation .link-button,
 #next_simplified .donation .link-button,
 #mt_pricing_in_bh_next .donation .link-button {
-    color: #6BB4C9;
+    color: #F28C7A;
     -webkit-appearance: none;
     appearance: none;
     background-color: #0000;
@@ -13891,7 +13891,7 @@ i.yellow {
 #next #phq9-gad7-results .primary,
 #next_simplified #phq9-gad7-results .primary,
 #mt_pricing_in_bh_next #phq9-gad7-results .primary {
-    color: #6BB4C9;
+    color: #F28C7A;
     --circle-color: var(--token-primary-300);
     --circle-color-rgb: 166, 222, 155
 }
@@ -14043,7 +14043,7 @@ i.yellow {
 
 #start-go2 #header-wrap .discount-banner {
     color: #f5f7f5;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border-radius: 5px;
     margin-top: -20px;
     margin-bottom: 20px;
@@ -14065,7 +14065,7 @@ i.yellow {
 }
 
 #start-go2 #header-wrap.header-bg-solid {
-    background: #6BB4C9 url(//assets.betterhelp.com/betterhelp_two/css-elements/bg-texture.png) 100% 100%
+    background: #F28C7A url(//assets.betterhelp.com/betterhelp_two/css-elements/bg-texture.png) 100% 100%
 }
 
 #start-go2 #header-wrap .container {
@@ -14150,7 +14150,7 @@ i.yellow {
 }
 
 #start-go2 #header-wrap #top-questionnaire .crimejunkie-promo strong {
-    color: #6BB4C9;
+    color: #F28C7A;
     font-weight: 700
 }
 
@@ -14197,7 +14197,7 @@ i.yellow {
 }
 
 #start-go2 #header-wrap #top-questionnaire .crimejunkie-content .crimejunkie-audio-button {
-    color: #6BB4C9;
+    color: #F28C7A;
     width: 158px;
     height: 40px;
     background-color: #f5f7f5;
@@ -14211,14 +14211,14 @@ i.yellow {
 }
 
 #start-go2 #header-wrap #top-questionnaire .crimejunkie-content .crimejunkie-audio-button:focus {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #f5f7f5;
     outline: none
 }
 
 #start-go2 #header-wrap #top-questionnaire .crimejunkie-content .crimejunkie-audio-button:hover {
     color: #f5f7f5;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     outline: none
 }
 
@@ -14310,7 +14310,7 @@ i.yellow {
 }
 
 #start-go2 .testimonial-in-quotes .testimonials .slick-dots li.slick-active button:before {
-    color: #6BB4C9 !important
+    color: #F28C7A !important
 }
 
 #start-go2 .testimonial-in-quotes .testimonials .slide {
@@ -14368,7 +14368,7 @@ i.yellow {
 }
 
 #start-go2 #card-spread .green-text {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #start-go2 #card-spread.one {
@@ -14457,7 +14457,7 @@ i.yellow {
 }
 
 #start-go2 #final-message span {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #start-go2 #final-message .btn {
@@ -14483,7 +14483,7 @@ i.yellow {
 #start-go2 #logo-testimonial-bar.wave:before {
     content: "";
     height: 6rem;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     background-image: url(//assets.betterhelp.com/betterhelp_two/css-elements/dividers-double-curve-green-right.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -14736,7 +14736,7 @@ i.yellow {
     }
 
     #start-go2 .testimonial-in-quotes .testimonials .slick-dots li.slick-active button:before {
-        color: #6BB4C9 !important
+        color: #F28C7A !important
     }
 
     #start-go2 #counselor-bar {
@@ -15185,7 +15185,7 @@ body[id*=focus_area] .more-focus-areas-dropdown {
     height: 40px;
     width: 164px;
     letter-spacing: -.16px;
-    border: 1px solid #6BB4C9;
+    border: 1px solid #F28C7A;
     align-items: center;
     padding: 8px 16px;
     display: flex;
@@ -15212,13 +15212,13 @@ body[id*=focus_area] .more-focus-areas-dropdown[aria-disabled=true] .select2-sel
 }
 
 body[id*=focus_area] .more-focus-areas-dropdown .select2-selection__rendered {
-    color: #6BB4C9;
+    color: #F28C7A;
     padding: 0;
     font-family: Overpass, sans-serif
 }
 
 body[id*=focus_area] .more-focus-areas-dropdown .select2-selection__rendered .select2-selection__placeholder {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 body[id*=focus_area] .select2-container {
@@ -15247,7 +15247,7 @@ body[id*=focus_area] .select2-container .select2-dropdown.desktop .select2-searc
 body[id*=focus_area] .select2-container .select2-dropdown.desktop .select2-search--dropdown .select2-search__field {
     color: #4a4d4a;
     padding: 6px 24px 6px 38px;
-    border: 2px solid #6BB4C9 !important
+    border: 2px solid #F28C7A !important
 }
 
 body[id*=focus_area] .select2-container .select2-dropdown.desktop .select2-results__option {
@@ -15299,7 +15299,7 @@ body[id*=focus_area] #modal-more-focus-areas .select2-container .select2-dropdow
 
 body[id*=focus_area] #modal-more-focus-areas .select2-container .select2-dropdown .select2-search--dropdown .select2-search__field {
     padding: 6px 28px 6px 38px;
-    border: 2px solid #6BB4C9 !important
+    border: 2px solid #F28C7A !important
 }
 
 body[id*=focus_area] #modal-more-focus-areas .select2-container .select2-dropdown .select2-results__options {
@@ -15386,7 +15386,7 @@ body[id*=set_password] .main-content h3 {
 
 #start #body-container #content-container .signup-form a:active,
 #start #body-container #content-container .signup-form a:focus {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #start #body-container #content-container .signup-form .form-floating .form-control~label {
@@ -15701,7 +15701,7 @@ body[id*=set_password] .main-content h3 {
     height: 100vh;
     min-height: 500px;
     text-align: center;
-    background-image: linear-gradient(#6BB4C9d9, #6BB4C9d9), url(//assets.betterhelp.com/home/betterhelp/hero-bg.jpg);
+    background-image: linear-gradient(#F28C7Ad9, #F28C7Ad9), url(//assets.betterhelp.com/home/betterhelp/hero-bg.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -15862,12 +15862,12 @@ body[id*=set_password] .main-content h3 {
 }
 
 #main .hero-wrapper .home-illus-button-group .home-illus-cta-btn.individual {
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 #main .hero-wrapper .home-illus-button-group .home-illus-cta-btn.individual:active,
 #main .hero-wrapper .home-illus-button-group .home-illus-cta-btn.individual.pressed {
-    background-color: #6BB4C9
+    background-color: #F28C7A
 }
 
 #main .hero-wrapper .home-illus-button-group .home-illus-cta-btn.individual:before {
@@ -15986,7 +15986,7 @@ body[id*=set_password] .main-content h3 {
 }
 
 #main .numbers .counter-number {
-    color: #6BB4C9;
+    color: #F28C7A;
     letter-spacing: -.02em;
     font-family: Overpass, sans-serif;
     font-size: 2rem;
@@ -16615,7 +16615,7 @@ body[id*=set_password] .main-content h3 {
 
 .faq-right-collapse .panel a.accordion-toggle:before {
     content: "";
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 @keyframes puzzle-left {
@@ -16815,7 +16815,7 @@ body[id*=set_password] .main-content h3 {
     #main .hero-wrapper .home-illus-button-group .home-illus-cta-btn.individual:focus .arrow-outer .arrow-inner,
     #main .hero-wrapper .home-illus-button-group .home-illus-cta-btn.individual:active .arrow-outer .arrow-inner,
     #main .hero-wrapper .home-illus-button-group .home-illus-cta-btn.individual.pressed .arrow-outer .arrow-inner {
-        color: #6BB4C9
+        color: #F28C7A
     }
 
     #main .hero-wrapper .home-illus-button-group .home-illus-cta-btn.couples:before {
@@ -17798,7 +17798,7 @@ body[id*=set_password] .main-content h3 {
     }
 
     body.mobile_menu #mobile-menu .mobile-menu-row .mobile-menu-item.active svg .active-color {
-        fill: #6BB4C9
+        fill: #F28C7A
     }
 
     body.mobile_menu #mobile-menu .mobile-menu-row .mobile-menu-item.active svg .white-color {
@@ -17810,7 +17810,7 @@ body[id*=set_password] .main-content h3 {
     }
 
     body.mobile_menu #mobile-menu .mobile-menu-row .mobile-menu-item.active #use-svg-groups {
-        fill: #6BB4C9
+        fill: #F28C7A
     }
 
     body.mobile_menu #mobile-menu .mobile-menu-row .mobile-menu-item svg {
@@ -17871,8 +17871,8 @@ body[id*=set_password] .main-content h3 {
     }
 
     body.mobile_menu #mobile-menu .mobile-menu-row .mobile-menu-item.active a {
-        color: #6BB4C9;
-        -webkit-text-fill-color: #6BB4C9
+        color: #F28C7A;
+        -webkit-text-fill-color: #F28C7A
     }
 
     body.mobile_menu #mobile-menu .mobile-menu-row .mobile-menu-item.active a:visited,
@@ -17947,7 +17947,7 @@ body[id*=set_password] .main-content h3 {
     }
 
     #more ul.more_links a .special-icon {
-        -webkit-text-fill-color: #6BB4C9;
+        -webkit-text-fill-color: #F28C7A;
         padding-left: 5px
     }
 
@@ -18062,7 +18062,7 @@ body[id*=set_password] .main-content h3 {
         width: 100%;
         max-width: 100%;
         box-shadow: none;
-        background-color: #6BB4C9;
+        background-color: #F28C7A;
         border: none;
         border-radius: 0;
         margin: 0;
@@ -18237,15 +18237,15 @@ body[id*=set_password] .main-content h3 {
 #switch_choice .therapist-card .select_livesession_type_wrapper .scheduler-button-group .session-buttons:hover,
 #switch_choice .therapist-card .select_livesession_type_wrapper .scheduler-button-group .session-buttons.active,
 #switch_choice .therapist-card .select_livesession_type_wrapper .scheduler-button-group .session-buttons:focus {
-    color: #6BB4C9;
+    color: #F28C7A;
     background: #b3dbbd;
-    border: 1px solid #6BB4C9
+    border: 1px solid #F28C7A
 }
 
 #switch_choice .therapist-card .select_livesession_type_wrapper .scheduler-button-group .session-buttons:hover i,
 #switch_choice .therapist-card .select_livesession_type_wrapper .scheduler-button-group .session-buttons.active i,
 #switch_choice .therapist-card .select_livesession_type_wrapper .scheduler-button-group .session-buttons:focus i {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #switch_choice .therapist-card .select_livesession_type_wrapper .scheduler-button-group .session-buttons:last-of-type {
@@ -18937,7 +18937,7 @@ body[id*=set_password] .main-content h3 {
 
 #modal-not-ready .not-ready-restart,
 .modal-not-ready-btn {
-    color: #6BB4C9;
+    color: #F28C7A;
     letter-spacing: -.32px;
     background-color: #0000;
     font-size: 16px
@@ -18947,7 +18947,7 @@ body[id*=set_password] .main-content h3 {
 #modal-not-ready .not-ready-restart:focus,
 .modal-not-ready-btn:hover,
 .modal-not-ready-btn:focus {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #confirm-eap-agent-revoke-modal .modal-body {
@@ -19061,7 +19061,7 @@ body[id*=set_password] .main-content h3 {
 
 .cancellation-radio-select-div input[type=radio]:checked+label {
     background-color: #fffcf6;
-    border: 2px solid #6BB4C9;
+    border: 2px solid #F28C7A;
     border-radius: 5px
 }
 
@@ -19216,7 +19216,7 @@ ul#align-icon-text li {
 }
 
 #service-offered {
-    color: #6BB4C9;
+    color: #F28C7A;
     margin-bottom: 10px;
     font-size: 25px
 }
@@ -19321,7 +19321,7 @@ ul#align-icon-text li {
 }
 
 #modal-vacation-scheduler .accessible-dropdown:focus {
-    border: 2px solid #6BB4C9
+    border: 2px solid #F28C7A
 }
 
 #modal-vacation-scheduler .out-of-office-warning {
@@ -19520,7 +19520,7 @@ ul#align-icon-text li {
 }
 
 #referral-program-modal #one_week_free {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #referral-program-modal #accordion .panel-heading {
@@ -19613,7 +19613,7 @@ ul#align-icon-text li {
 }
 
 #aggressive-referral-program-modal #one_week_free {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #aggressive-referral-program-modal .referral-explanation {
@@ -19626,7 +19626,7 @@ ul#align-icon-text li {
 }
 
 #aggressive-referral-program-modal .referral-explanation p #referral_explanation_tooltip {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #aggressive-referral-program-modal .invite-friends-img {
@@ -19660,7 +19660,7 @@ ul#align-icon-text li {
     height: 35px;
     text-align: center;
     color: #fff;
-    background: #6BB4C9;
+    background: #F28C7A;
     border-radius: 50%;
     margin-bottom: 15px;
     font-size: 18px;
@@ -19702,7 +19702,7 @@ ul#align-icon-text li {
 }
 
 #aggressive-referral-program-modal #give_week #give_friend_week_tooltip {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #aggressive-referral-program-modal .social-links {
@@ -20152,13 +20152,13 @@ ul#align-icon-text li {
 }
 
 #payment-update-modal .payment-comparison-container .payment-comparison-row .payment-item.payment-item-new .new-hourly-rate {
-    color: #6BB4C9;
+    color: #F28C7A;
     font-size: 18px;
     font-weight: 700
 }
 
 #payment-update-modal .payment-comparison-container .payment-comparison-row .payment-item.payment-item-new .new-hourly-rate-increase {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #payment-update-modal .payment-comparison-container .payment-comparison-row .payment-item.payment-item-old {
@@ -20520,7 +20520,7 @@ ul#align-icon-text li {
     height: 44px;
     width: 44px;
     color: #fff;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border-radius: 100%
 }
 
@@ -20626,7 +20626,7 @@ ul#align-icon-text li {
 }
 
 #change-subscription .plan-attribute {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #change-subscription #switch-therapist-in-quit {
@@ -20761,7 +20761,7 @@ ul#align-icon-text li {
 }
 
 .modal .modal-content .modal-body small.green {
-    color: #6BB4C9;
+    color: #F28C7A;
     line-height: 1.4
 }
 
@@ -20889,13 +20889,13 @@ ul#align-icon-text li {
 #alt_cc_pay_form .pay-methods label:hover {
     cursor: pointer;
     background-color: #4a4d4a0d;
-    border-color: #6BB4C9b3
+    border-color: #F28C7Ab3
 }
 
 #alt_cc_pay_form .pay-methods input[type=radio]:checked+label {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #fff;
-    border-color: #6BB4C9b3
+    border-color: #F28C7Ab3
 }
 
 #alt_cc_pay_form .pay-methods input[type=radio]:checked+label .fa-circle-check {
@@ -21194,7 +21194,7 @@ ul#align-icon-text li {
 .promo-notice {
     width: 100%;
     background-color: #cbe7d2;
-    border: 1px solid #6BB4C9;
+    border: 1px solid #F28C7A;
     border-radius: 5px;
     margin: 15px 0 10px
 }
@@ -21293,7 +21293,7 @@ ul#align-icon-text li {
 .russel-notice .institution,
 .one-time-notice .institution,
 .pricing-version-promo .institution {
-    background: #6BB4C9 url(//assets.betterhelp.com/icons/pricetag-icon.png) 16px/24px 24px no-repeat
+    background: #F28C7A url(//assets.betterhelp.com/icons/pricetag-icon.png) 16px/24px 24px no-repeat
 }
 
 #modal-reactivation-payment .fin-aid-notice,
@@ -21319,7 +21319,7 @@ ul#align-icon-text li {
 }
 
 .institution {
-    border: 1px solid #6BB4C9
+    border: 1px solid #F28C7A
 }
 
 .offer-fin-aid {
@@ -21471,7 +21471,7 @@ ul#align-icon-text li {
 }
 
 .slicker-stripe.StripeElement--complete {
-    border-color: #6BB4C9
+    border-color: #F28C7A
 }
 
 .slicker-stripe.StripeElement--webkit-autofill {
@@ -21829,7 +21829,7 @@ img.money-back-guarantee {
 }
 
 #service-comparison-table .bh-logo-header {
-    background: #6BB4C9;
+    background: #F28C7A;
     border-radius: .5rem .5rem 0 0
 }
 
@@ -22180,7 +22180,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip.righ
 #main .dark-bg #service-comparison-table .tooltip .tooltip-inner,
 body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip .tooltip-inner {
     text-align: left;
-    color: #6BB4C9;
+    color: #F28C7A;
     background: #f5fbf4;
     margin-top: 60px;
     padding: 1rem;
@@ -22913,7 +22913,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 }
 
 #faq .accordion-toggle[aria-expanded=true] i {
-    color: #6BB4C9;
+    color: #F28C7A;
     transform: rotate(180deg)
 }
 
@@ -23277,7 +23277,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q001-tree {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q001-tree.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q001-tree.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23288,7 +23288,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q002-door {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q002-door.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q002-door.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23299,7 +23299,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q003-somebody {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q003-somebody.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q003-somebody.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23310,7 +23310,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q004-stars {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q004-stars.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q004-stars.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23321,7 +23321,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q005-failed {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q005-failed.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q005-failed.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23332,7 +23332,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q006-dreams {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q006-dreams.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q006-dreams.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23343,7 +23343,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q007-morning {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q007-morning.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q007-morning.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23354,7 +23354,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q008-falling {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q008-falling.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q008-falling.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23365,7 +23365,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q009-beauty {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q009-beauty.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q009-beauty.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23376,7 +23376,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q010-tree {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q010-tree.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q010-tree.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23387,7 +23387,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q011-stars {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q011-stars.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q011-stars.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23398,7 +23398,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q012-light {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q012-light.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q012-light.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23409,7 +23409,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q013-universe {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q013-universe.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q013-universe.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23420,7 +23420,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q014-sailor {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q014-sailor.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q014-sailor.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23431,7 +23431,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q015-work {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q015-work.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q015-work.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23442,7 +23442,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q016-littlethings {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q016-littlethings.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q016-littlethings.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23453,7 +23453,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q017-newday {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q017-newday.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q017-newday.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23464,7 +23464,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q018-goal {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q018-goal.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q018-goal.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23475,7 +23475,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q019-bicycle {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q019-bicycle.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q019-bicycle.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23486,7 +23486,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q020-story {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q020-story.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q020-story.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23497,7 +23497,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q021-impossible {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q021-impossible.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q021-impossible.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23508,7 +23508,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q022-perfection {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q022-perfection.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q022-perfection.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23519,7 +23519,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q023-imagination {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q023-imagination.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q023-imagination.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23530,7 +23530,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q024-jobs {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q024-jobs.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q024-jobs.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23541,7 +23541,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q025-rainbow {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q025-rainbow.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q025-rainbow.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23552,7 +23552,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q026-soul {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q026-soul.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q026-soul.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23563,7 +23563,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q027-shakespeare {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q027-shakespeare.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q027-shakespeare.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23574,7 +23574,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q028-world {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q028-world.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q028-world.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23585,7 +23585,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q029-thrive {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q029-thrive.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q029-thrive.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23596,7 +23596,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q030-football {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q030-football.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q030-football.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23607,7 +23607,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q031-believe {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q031-believe.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q031-believe.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23618,7 +23618,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q032-help {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q032-help.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q032-help.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23629,7 +23629,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q033-boxing {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q033-boxing.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q033-boxing.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23640,7 +23640,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q034-clouds {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q034-clouds.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q034-clouds.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23651,7 +23651,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q035-happy {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q035-happy.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q035-happy.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23662,7 +23662,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q036-inside {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q036-inside.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q036-inside.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23673,7 +23673,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q037-change {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q037-change.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q037-change.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23684,7 +23684,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q039-opportunity {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q039-opportunity.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q039-opportunity.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23695,7 +23695,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q040-weare {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q040-weare.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q040-weare.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23706,7 +23706,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q041-stars {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q041-stars.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q041-stars.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23717,7 +23717,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q042-cave {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q042-cave.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q042-cave.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23728,7 +23728,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q043-climbers {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q043-climbers.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q043-climbers.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23739,7 +23739,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q044-hiker {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q044-hiker.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q044-hiker.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23750,7 +23750,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q045-runner {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q045-runner.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q045-runner.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23761,7 +23761,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q046-painters {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q046-painters.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q046-painters.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23772,7 +23772,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q047-rocket {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q047-rocket.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q047-rocket.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23783,7 +23783,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q048-bikers {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q048-bikers.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q048-bikers.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23794,7 +23794,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q049-paintbrush {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q049-paintbrush.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q049-paintbrush.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23805,7 +23805,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q050-impossible {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q050-impossible.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q050-impossible.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23816,7 +23816,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q051-possibility {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q051-possibility.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q051-possibility.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23827,7 +23827,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q052-airplane {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q052-airplane.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q052-airplane.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23838,7 +23838,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q054-sunrise {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q054-sunrise.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q054-sunrise.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23849,7 +23849,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #body-container.q055-sprout {
     background-color: #0000;
-    background-image: linear-gradient(90deg, #6BB4C9cc, #6BB4C9cc), url(https://assets.betterhelp.com/login/q055-sprout.jpg);
+    background-image: linear-gradient(90deg, #F28C7Acc, #F28C7Acc), url(https://assets.betterhelp.com/login/q055-sprout.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23940,14 +23940,14 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 }
 
 #login #login-bg form#login-form .alert.alert-success {
-    color: #6BB4C9;
+    color: #F28C7A;
     background-color: #f5fbf4;
     border: 1px solid #F28C7A;
     border-radius: 5px
 }
 
 #login #login-bg form#login-form .alert.alert-success .close {
-    color: #6BB4C9
+    color: #F28C7A
 }
 
 #login #login-bg form#login-form .alert.alert-secondary {
@@ -24004,7 +24004,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 
 #login #login-bg .login-padding .login-wrapper .login-form .password-reset-title {
     text-align: left;
-    color: #6BB4C9;
+    color: #F28C7A;
     margin-bottom: 24px;
     font-size: 24px;
     line-height: 32px
@@ -24286,7 +24286,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
         content: "";
         height: 76px;
         z-index: -1;
-        background: #6BB4C9;
+        background: #F28C7A;
         border-radius: 50% 50% 0 0/100% 100% 0 0;
         position: absolute;
         top: 0;
@@ -24333,7 +24333,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
         color: #fff;
         text-align: center;
         z-index: 5;
-        background-color: #6BB4C9;
+        background-color: #F28C7A;
         font-size: 1rem
     }
 
@@ -24645,7 +24645,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
     content: "";
     height: 76px;
     z-index: -1;
-    background: #6BB4C9;
+    background: #F28C7A;
     border-radius: 50% 50% 0 0/100% 100% 0 0;
     position: absolute;
     top: 0;
@@ -24687,7 +24687,7 @@ body[id*=counselor_application] .dark-bg #service-comparison-table .tooltip-cent
 }
 
 #reviews .reviews {
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     margin-top: -2px;
     padding-bottom: 36px
 }
@@ -28986,7 +28986,7 @@ body[id=redesigned\/gift_complete] .block {
     color: #f5f7f5;
     width: 100%;
     z-index: 3;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     padding: 16px 24px;
     font-size: 14px;
     line-height: 20px;
@@ -29226,7 +29226,7 @@ body[id=redesigned\/gift_complete] .block {
 }
 
 #counselor-index .counselor-profile-header__session-type-icon {
-    color: #6BB4C9;
+    color: #F28C7A;
     vertical-align: -3px;
     margin-right: 4px;
     font-size: 20px;
@@ -29359,8 +29359,8 @@ body[id=redesigned\/gift_complete] .block {
 }
 
 #counselor-index .counselor-profile-header__subnav-item.active {
-    color: #6BB4C9;
-    border-bottom: 4px solid #6BB4C9
+    color: #F28C7A;
+    border-bottom: 4px solid #F28C7A
 }
 
 #counselor-index .counselor-profile-header__subnav-item.active .counselor-profile-header__subnav-item-link {
@@ -30025,7 +30025,7 @@ body[id=redesigned\/gift_complete] .block {
     width: 18px;
     height: 18px;
     color: #fff;
-    background-color: #6BB4C9;
+    background-color: #F28C7A;
     border-radius: 50%;
     margin-right: 2px;
     display: inline-block
@@ -30857,15 +30857,15 @@ body[id=redesigned\/gift_complete] .block {
 }
 
 .goals-content .goals-dashboard .goals-dashboard-single-wrapper .goals-dashboard-single-panel .goals-dashboard-single-panel-steps .goals-dashboard-single-panel-step .goals-dashboard-single-panel-step-status.recurring.some-progress {
-    background: conic-gradient(#6BB4C9 40deg, #939b92 40deg 360deg);
+    background: conic-gradient(#F28C7A 40deg, #939b92 40deg 360deg);
     border: none
 }
 
 .goals-content .goals-dashboard .goals-dashboard-single-wrapper .goals-dashboard-single-panel .goals-dashboard-single-panel-steps .goals-dashboard-single-panel-step .goals-dashboard-single-panel-step-status.complete {
     box-shadow: none;
     color: #fff;
-    background-color: #6BB4C9;
-    border: 1px solid #6BB4C9
+    background-color: #F28C7A;
+    border: 1px solid #F28C7A
 }
 
 .goals-content .goals-dashboard .goals-dashboard-single-wrapper .goals-dashboard-single-panel .goals-dashboard-single-panel-steps .goals-dashboard-single-panel-step .goals-dashboard-single-panel-step-status .goals-dashboard-single-panel-step-confetti-wrapper {
@@ -31284,8 +31284,8 @@ body[id=redesigned\/gift_complete] .block {
     padding: 0;
     line-height: 20px;
     display: inline-block;
-    color: #6BB4C9 !important;
-    -webkit-text-fill-color: #6BB4C9 !important;
+    color: #F28C7A !important;
+    -webkit-text-fill-color: #F28C7A !important;
     text-decoration: none !important
 }
 
@@ -31624,8 +31624,8 @@ body[id=redesigned\/therapists_state] .filter-btn:focus,
 body[id=redesigned\/therapists_city] .filter-btn:hover,
 body[id=redesigned\/therapists_city] .filter-btn:focus {
     color: #f5f7f5;
-    background-color: #6BB4C9;
-    border-color: #6BB4C9
+    background-color: #F28C7A;
+    border-color: #F28C7A
 }
 
 body[id=redesigned\/therapists_filtered] .filter-btn:hover .fa-regular.fa-filter-list,
@@ -32012,13 +32012,13 @@ body[id=redesigned\/therapists_filtered] .manage-content img {
 }
 
 .select2-container .select2-selection:hover {
-    border-color: #6BB4C9;
-    box-shadow: inset 0 0 0 1px #6BB4C9, 0 0 0 4px #F28C7A
+    border-color: #F28C7A;
+    box-shadow: inset 0 0 0 1px #F28C7A, 0 0 0 4px #F28C7A
 }
 
 .select2-container .select2-selection:active,
 .select2-container .select2-selection:focus {
-    box-shadow: inset 0 0 0 1px #6BB4C9
+    box-shadow: inset 0 0 0 1px #F28C7A
 }
 
 .select2-container--open,
@@ -32300,13 +32300,13 @@ header.legacy .skip-link {
 
 header.legacy .skip-link:focus {
     top: 80px;
-    color: #6BB4C9 !important;
+    color: #F28C7A !important;
     background-color: #F28C7A !important;
     border-color: #F28C7A !important
 }
 
 header.legacy.dark-bg .skip-link:focus {
-    color: #6BB4C9 !important;
+    color: #F28C7A !important;
     background-color: #f5f7f5 !important;
     border-color: #f5f7f5 !important
 }

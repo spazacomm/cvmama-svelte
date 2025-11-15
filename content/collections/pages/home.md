@@ -5,63 +5,15 @@ title: Home
 template: page
 author: e20ca7e3-df79-4247-a3dc-3fc15b164684
 updated_by: e20ca7e3-df79-4247-a3dc-3fc15b164684
-updated_at: 1763119083
+updated_at: 1763208238
 blocks:
   -
-    id: mhq3wzor
+    id: mi08bukc
+    type: hero_1
+    enabled: false
+  -
+    id: mi08m6n1
     type: hero_2
-    enabled: false
-  -
-    id: mhyr3xil
-    type: hero_4
-    enabled: true
-  -
-    id: mhq3w4sj
-    type: works_3
-    enabled: true
-  -
-    id: mhyqy5h0
-    type: works_2
-    enabled: false
-  -
-    id: mhq7w2g2
-    type: works_default
-    enabled: false
-  -
-    id: mhyr1zd2
-    type: feature_2
-    enabled: false
-  -
-    id: mhq3u4fh
-    type: cta_2
-    enabled: true
-  -
-    id: mhq2kewp
-    type: feature_1
-    enabled: false
-  -
-    id: mhq8i6fw
-    type: team
-    enabled: true
-  -
-    id: mhq4zprd
-    type: testimonial_2
-    enabled: false
-  -
-    id: mhq8os7j
-    type: testimonial_3
-    enabled: false
-  -
-    id: mhyr9fgf
-    type: testimonial_1
-    enabled: true
-  -
-    id: mhyrcqtt
-    type: blog_1
-    enabled: true
-  -
-    id: mhyrc8j5
-    type: blog
     enabled: true
 seo_title: 'Reverse Recruitment & Career Services'
 seo_description: 'career services, reverse recruitment, job placement, resume building, cover letter assistance, career guidance, job search support'
